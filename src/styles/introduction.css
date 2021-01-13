@@ -1,0 +1,18 @@
+#introduction{
+    display: flex;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+}
+
+#introPictureContainer{
+}
+
+#introPicture{
+    background-image: url(/src/images/introBackground.jpg);
+    background-position-y: -50px;
+    background-size: cover;
+}
+
+
+
+
+

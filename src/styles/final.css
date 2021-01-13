@@ -1,0 +1,32 @@
+#final{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#finalText{
+    width: 500px;
+    text-align: center;
+}
+
+.contactLogo{
+    margin: 10px;
+}
+
+#finalIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#finalEmailLogo{
+    height: 35px;
+}
+
+#finalLinkedInLogo{
+    height: 40px;
+}
+
