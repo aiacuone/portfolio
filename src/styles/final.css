@@ -30,3 +30,16 @@
     height: 40px;
 }
 
+@media all and (max-width:1200px){
+    #finalEmailLogo{
+        height: 25px;
+    }
+    
+    #finalLinkedInLogo{
+        height: 30px;
+    }
+
+    #final{
+        height: 300px;
+    }
+}

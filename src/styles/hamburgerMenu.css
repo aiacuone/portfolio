@@ -49,3 +49,17 @@
     text-decoration: none;
     color: white;
 }
+
+@media all and (max-width:1200px){
+    .hamburgerSelect{
+        height: 50px;
+    }
+
+    #hambugerContact{
+        /* height: 20%; */
+    }
+
+    .hamburgerLogo{
+        width: 40px;
+    }
+}

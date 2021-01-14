@@ -6,11 +6,20 @@
 
 #projectsTextContainer{
     align-items: flex-start;
-    margin: 90px 0 0 0;
+    margin: 130px 0 0 0;
 }
 
 #projectsText{
     color: white;
+}
+
+#projectsLogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background:yellow; */
+    flex-direction: column;
+    margin: 0 50px 0 0;
 }
 
 #projectsPictureContainer{
@@ -29,7 +38,37 @@
 }
 
 #freecodecampLogo{
-    margin-top: 20px;
-    padding-right: 100px;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.projectsLogo{
+    height: 45px;
+    cursor: pointer;
+    transition: scale .1s ease-out;
+}
+
+.projectsLogo:hover{
+    scale: 1.02;
+}
+
+@media all and (max-width:1200px){
+    .projectsLogo{
+        height: 35px;
+    }
+
+    #tekkenLogo{
+        margin-top: 20px;
+    
+    }
+    #projectsLogos{
+        margin: 0 0px 0 30px;
+        /* background: yellow; */
+        /* width: 100px; */
+    }
+    #projectsTextContainer{
+        margin: 120px 0 0 0;
+    }
+    #projectsPictureContainer{
+        margin:  -20px 0 0px 0;
+    }
 }

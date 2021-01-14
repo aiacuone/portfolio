@@ -84,20 +84,33 @@ body {
     font-weight: 500;
 }
 
-.projectsLogo{
-    height: 45px;
-    /* margin: 0 100px 0 0; */
-    cursor: pointer;
-    padding-right: 100px;
-    transition: scale .1s ease-out;
-}
-
-.projectsLogo:hover{
-    scale: 1.02;
-}
 
 .contentContainer{
     width: 100%;
     height: 800px;
 }
 
+@media all and (max-width:1200px){
+
+    *{
+        font-size: .9rem;
+    }
+
+    #main{
+        width: 900px;
+        /* background:yellow */
+    }
+
+    .contentContainer{
+        height: 600px;
+    }
+
+    .pictureLeft{
+        height: 200px;
+        width: 400px;
+    }
+    .pictureRight{
+        height: 200px;
+        width: 400px;
+    }
+}

@@ -45,3 +45,17 @@ grid-area: 1/1/1/1;
     top: 10;
     z-index: 150px;
     }
+
+    @media all and (max-width:1200px){
+        #header{
+            height: 50px;
+        }
+
+        #hamburgerLogo{
+            height: 55px;
+        }
+
+        #aiLogo{
+            height: 25px;
+        }
+    }

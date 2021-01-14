@@ -51,3 +51,18 @@ z-index: 2;
     font-size: 1.8em;
     padding: 0 0 10px 240px;
 }
+
+@media all and (max-width:1200px){
+    #hero{
+        height: 350px;
+    }
+
+    #name{
+        width: 600px;
+        padding: 0 0 0 10px;
+    }
+
+    #location{
+        padding: 0 0 5px 100px;
+    }
+}

@@ -8,13 +8,16 @@ export default function Projects() {
         <div id='projects' class='contentContainer'>
             <div class='textContainerLeft'id='projectsTextContainer'>
                 <div class='textLeft' id='projectsText'>
-                    <text>
-                        <p>Personal</p>
-                        <p class='bigText'>Projects & Experience</p><br/>
+                    <div id='projectsTextHeader'>
+                        <text>
+                            <p>Personal</p>
+                            <p class='bigText'>Projects & Experience</p><br/>
+                        </text>
+                    </div>
+                    <div id='projectsLogos'>
                         <img class='projectsLogo' id='tekkenLogo'src={tekkenLogo}/>
                         <img class='projectsLogo' id='freecodecampLogo' src={freecodecampLogo}/>
-
-                    </text>
+                    </div>
                 </div>
             </div>
             <div class='pictureContainerRight' id='projectsPictureContainer'>
