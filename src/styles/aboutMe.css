@@ -26,12 +26,16 @@
 }
 
 #aboutMeCategories{
-    padding: 0 50px 0 0;
+    padding: 0 20px 0 0;
     font-style: italic;
 }
 
 @media all and (max-width:1200px){
     #aboutMePicture{
         width: 350px;
+    }
+
+    #aboutMeCategories{
+        padding: 0 10px 0 0;
     }
 }

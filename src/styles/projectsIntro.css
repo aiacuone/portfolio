@@ -1,0 +1,69 @@
+#projectsIntro{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 100%;
+}
+
+#introContainer1{
+    width: 50%;
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+#projectsIntroText{
+    width: 100%;
+    height: 40%;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#projectsPictureContainer1{
+    width: 100%;
+    height: 40%;
+    background: yellow;
+    padding: 20px;
+}
+
+#projectsPicture1{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+#introContainer2{
+    width: 50%;
+    height: 100%;
+    /* background: blue; */
+}
+
+#projectsPictureContainer2{
+    width: 100%;
+    height: 40%;
+    background: green;
+    padding: 20px;
+}
+
+#projectsPicture2{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+#projectsPictureContainer3{
+    width: 100%;
+    height: 40%;
+    background: brown;
+    padding: 20px;
+}
+
+#projectsPicture3{
+    width: 100%;
+    height: 100%;
+    background: white;
+}

@@ -1,57 +1,111 @@
 #projects{
     background: #506F8E;
-    clip-path: polygon(0% 0%, 100% 00%, 100% 80%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 00%, 100% 90%, 0% 100%);
     display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+
 }
 
-#projectsTextContainer{
-    align-items: flex-start;
-    margin: 130px 0 0 0;
-}
+#projectsHeader{
 
-#projectsText{
-    color: white;
-}
-
-#projectsLogos{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background:yellow; */
+    color: white;
+    height: 15%;
+
+}
+
+#projectsHeaderText{
+    /* margin: 0 0 50px 0; */
+}
+
+#projectsContentContainer{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    margin: 30px 0 0 0;
+
+}
+
+#projectsLogosContainer{
+    width: 20%;
+    height: 100%;
+    /* background: red; */
+    display: flex;
     flex-direction: column;
-    margin: 0 50px 0 0;
+    align-items: flex-end;
+    /* margin: 50px 0 0 0; */
 }
 
-#projectsPictureContainer{
-    margin: -90px 0 0 0;
+.projectsSelect{
+    cursor: pointer;
+    /* border-bottom: 1px white solid; */
+    /* position: absolute; */
 }
 
-#projectsPicture{
-    background-image: url(/src/images/projectsBackground.jpg);
-    background-size: cover;
-    background-position-y: -30px;
+#projectsLogos{
+    background: #3e556b;
+    /* width: 80%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    /* margin: 80px 0 0 0; */
 }
 
-#tekkenLogo{
-    margin-top: 50px;
-
+#freecodecampSelect{
+    margin: 10px 0 10px 0;
 }
 
-#freecodecampLogo{
-    margin: 20px 0 20px 0;
+#projectsInfoContainer{
+    width: 80%;
+    height: 100%;
+    /* background: rgb(0, 204, 255); */
+    padding: 0 120px 0 50px;
+}
+
+#projectsInfo{
+    height: 100%;
+    width: 100%;
+    /* background: blue; */
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    /* margin: 50px 0 0 0; */
+}
+
+
+.projectsButton{
+    border: 2px solid rgb(177, 177, 177);
+    /* position: absolute; */
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;
+    margin: 5px;
 }
 
 .projectsLogo{
-    height: 45px;
-    cursor: pointer;
-    transition: scale .1s ease-out;
+    height: 40px;
 }
 
-.projectsLogo:hover{
-    scale: 1.02;
-}
+
 
 @media all and (max-width:1200px){
+    #projects{
+        height: 700px;
+    }
+
+    #projectsHeader{
+        /* height: 50%; */
+        /* background: red; */
+        margin: 30px 0 30px 0;
+    }
+    
     .projectsLogo{
         height: 35px;
     }
@@ -70,5 +124,15 @@
     }
     #projectsPictureContainer{
         margin:  -20px 0 0px 0;
+    }
+
+    #projectsHeader{
+        height: 10%;
+    }
+
+    #projectsContentContainer{
+        margin:0px 0 0 0;
+        /* background: green; */
+        height: 60%;
     }
 }

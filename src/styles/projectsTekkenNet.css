@@ -1,0 +1,53 @@
+#tekken{
+    width: 100%;
+    display: flex;
+}
+
+#tekkenContainer{
+    width: 50%;
+    height: 100%;
+}
+
+#tekkenSubHeader{
+    border-bottom: 1px solid white;
+    width: 180px;
+}
+
+.projectsSubHeader{
+    /* color: rgb(53, 53, 53); */
+}
+
+#tekkenPictures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#tekkenPicture1{
+    width: 70%;
+    height: 30%;
+    background: black;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+}
+
+#tekkenPicture2{
+    width: 70%;
+    height: 30%;
+    background: brown;
+    border-radius: 5px;
+}
+
+#tekkenHeaderContainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media all and (max-width:1200px){
+    #projectsTekkenLogo{
+        height: 25px;
+    }
+}
