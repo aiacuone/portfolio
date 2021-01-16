@@ -6,13 +6,13 @@ export default function ProjectsTekkenNet() {
     return (
         <div id='tekken'>
             <div id='tekkenContainer'>
-            <div id='tekkenHeaderContainer' class='projectsHeaderLogoContainer'><img id='projectsTekkenLogo' class='projectsLogo'src={tekkenLogo}></img></div>
+            <div id='tekkenHeaderContainer' class='projectsHeaderLogoContainer'><img id='projectsTekkenLogo' src={tekkenLogo}></img></div>
             <text>
                 <br/>
                 <br/>
                 <h3 class='projectsSubHeader'>Summary</h3>
                 <br/>
-                Tekken is a fighting game that has been around for around 25 years. Over that duration, they have developed over 50 characters, each character having on average 80+ moves, each of these moves having there own attributes and characteristics
+                Tekken is a fighting game that has been around for around 25 years. Over that duration, the developers have created over 50 characters, each character having on average 80+ moves, each of these moves having there own attributes and characteristics
                 <br/>
                 <br/>
                 Tekken-Net is designed to to take all this information and simplify in a way that is easily accessed and understood.
@@ -28,7 +28,7 @@ export default function ProjectsTekkenNet() {
                 <br/>
                 </text>
                 <div id='freecodecampButtonContainer'>
-                    <p class='projectsButton'>View Project!</p>
+                    <p id='tekkenProjectButton'class='projectsButton'>View Project!</p>
                 </div>
 
             </div>

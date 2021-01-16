@@ -12,7 +12,7 @@ export default function Hero(props) {
             
             <div id='details'>
                 <div id='name'><img src={name}/></div>
-                <div id='location'><p>London UK</p></div>
+                <div id='location'><p id='locationText'>London UK</p></div>
             </div>
             <div id='heroOverlay'/>
         </div>

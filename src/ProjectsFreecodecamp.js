@@ -29,16 +29,16 @@ export default function ProjectsFreecodecamp() {
                     <div id='freecodecampButtonContainer'>
                         <p class='projectsButton'>View Notes</p>
                         <br/>
+                        <p id='freecodecampCertButton'class='projectsButton'>View Certifications</p>
                         <br/>
-                        <br/>
-                        <p class='projectsButton'>View Certifications</p>
                     </div>
 
                 </text>
             </div>
             <div id='freecodecampPictures'>
                 <div id='freecodecampPicture1'>PICTURE1</div>
-                <div id='freecodecampPicture2'>PICTURE2</div>         
+                <div id='freecodecampPicture2'>PICTURE2</div>
+                         
             </div>
         </div>
     )

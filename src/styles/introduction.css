@@ -1,6 +1,7 @@
 #introduction{
     display: flex;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+
 }
 
 
@@ -8,6 +9,10 @@
     background-image: url(/src/images/introBackground.jpg);
     background-position-y: -50px;
     background-size: cover;
+}
+
+#introText{
+    margin: 0 100px 0 0;
 }
 
 

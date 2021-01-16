@@ -21,7 +21,7 @@ export default function Projects() {
 
 
     return (
-        <div id='projects' class='contentContainer'>
+        <div id='projects'>
             <div id='projectsHeader'>
                 <div id='projectsTextHeader'>
                     <text>
