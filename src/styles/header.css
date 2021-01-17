@@ -16,6 +16,7 @@
     height: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 #hamburgerLogo{
@@ -58,4 +59,16 @@ grid-area: 1/1/1/1;
         #aiLogo{
             height: 25px;
         }
+    }
+
+    @media all and (max-width:500px){
+        #hamburgerLogo{
+            margin: 0 10px 0 0;
+            height: 45px;
+        }
+
+        #aiLogo{
+            margin: 0 0 0 10px;
+            height: 20px;
+            }
     }

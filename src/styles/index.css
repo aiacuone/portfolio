@@ -122,7 +122,7 @@ body {
     }
 }
 
-@media all and (max-width:1200px){
+@media all and (max-width:500px){
     #main{
         width: 100vw;
         /* background:yellow */

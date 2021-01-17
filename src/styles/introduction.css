@@ -1,9 +1,7 @@
 #introduction{
     display: flex;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
-
 }
-
 
 #introPicture{
     background-image: url(/src/images/introBackground.jpg);
@@ -13,6 +11,45 @@
 
 #introText{
     margin: 0 100px 0 0;
+}
+
+@media all and (max-width:850px){
+    #introduction{
+        flex-direction: column;
+        /* align-items: center; */
+        /* height: 700px; */
+        width: ;
+    }
+
+    #introPictureContainer{
+        /* margin: 10px; */
+        width: 100%;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    #introPicture{
+        max-width: 230px;
+        min-width: 230px;
+        justify-content: flex-end;
+        height: 140px;
+        background-position-y: -10px;
+    }
+
+    #introTextContainer{
+        width: 100%;
+        /* background: yellow; */
+        margin: 0 0 0px;
+    }
+
+    #introText{
+        width: 300px;
+        margin: 0 0px 0 0;
+        margin: 20px;
+    }
+
+    #introduction{
+        height: 450px;
+    }
 }
 
 

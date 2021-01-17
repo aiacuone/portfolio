@@ -45,3 +45,27 @@
     }
 
 }
+
+@media all and (max-width:500px){
+    #interests{
+        flex-direction: column;
+    }
+
+    #interestsTextContainer{
+        width: 100%;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    #interestsPictureContainer{
+        align-items: flex-start;
+        padding: 20px 0 0 0;
+        width: 100%;
+    }
+
+    #interestsPicture{
+        width: 230px;
+        height: 140px;
+        background-position-y: -10px;
+    }
+}
