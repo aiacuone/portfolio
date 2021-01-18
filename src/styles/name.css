@@ -1,0 +1,40 @@
+#name{
+    width: 100%;
+    height: 100%;
+    background: green;
+    display: flex;
+    align-items: center;
+}
+
+#details{
+    width: 90%;
+}
+
+#nameFooterLong{
+    margin: 5px 0 5px 5px;
+    width: 70%;
+}
+
+#nameFooterShort{
+    width: 80%;
+    margin: 10px;
+}
+
+#locationContainer{
+    width: 20%;
+    height: 100%;
+    background: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#location{
+    width: 100%;
+    max-width: 200px;
+}
+
+#locationShort{
+
+}

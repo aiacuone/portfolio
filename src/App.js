@@ -1,25 +1,27 @@
 import React, {useState} from 'react';
-import Header from './Header'
-import Hero from './Hero'
-import Introduction from './Introduction'
-import Interests from './Interests'
-import AboutMe from './AboutMe'
-import Projects from './Projects'
-import Final from './Final'
+import HeaderLogo from './HeaderLogo'
+import HeaderHamburger from './HeaderHamburger'
+import Content from './Content'
+import Name from './Name'
+import Location from './Location'
+
 
 function App() {
 
-  let [hamburgerAngle, setHamburgerAngle]=useState('normal')
 
   return (
-    <div id='main'>
-      <Header clickHamburger={value=>setHamburgerAngle(value)} hamburgerAngle={hamburgerAngle}/>
-      <Hero clickHamburger={value=>setHamburgerAngle(value)} hamburgerAngle={hamburgerAngle}/>
-      <Introduction clickHamburger={value=>setHamburgerAngle(value)} hamburgerAngle={hamburgerAngle}/>
-      <Interests/>
-      <AboutMe/>
-      <Projects/>
-      <Final/>
+    <div id='mainContent'>
+      <div id='main'>
+        <div id='header'>
+          <HeaderLogo/>
+          <HeaderHamburger/>
+        </div>
+        <Content/>
+        <div id='footer'>
+          <Name/>
+          {/* <Location/> */}
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,12 @@
+#headerLogo{
+    width: 50%;
+    height: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+}
+
+#aiLogo{
+    height: 50%;
+    margin: 0 0 0 10px;
+}

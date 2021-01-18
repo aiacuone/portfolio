@@ -1,0 +1,14 @@
+#headerHamburger{
+    width: 50%;
+    height: 100%;
+    background: purple;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#hamburgerLogo{
+    height: 50%;
+    margin: 0 10px 0 0;
+    max-height: 25px;
+}
