@@ -1,0 +1,76 @@
+#dropdownMenu{
+    width: 100%;
+    height: 100%;
+    /* background: tomato; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+}
+
+#dropdownMenu{
+    /* background: yellow; */
+}
+
+.burgerSelect{
+width: 60%;
+display: flex;
+justify-content: center;
+/* padding: 3vh 0 3vh 0; */
+}
+
+
+
+.burgerSelect:first-child{
+    border-top: 1px black solid;
+    padding: 3vh 0 3vh 0;
+    margin: 20px 0 0 0;
+}
+
+
+
+.burgerSelect:nth-child(2){
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    padding: 3vh 0 3vh 0;
+}
+
+.burgerSelect:nth-child(3){
+    padding: 3vh 0 3vh 0;
+}
+
+.burgerSelect:nth-last-child(2){
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    /* background: yellow;/ */
+    padding: 3vh 0 3vh 0;
+    margin: 0 0 20px 0;
+}
+
+#burgerLinkedIn{
+    height: 4vh;
+    min-height: 30px;
+    margin: 0 20px 0 0;
+}
+
+#burgerEmail{
+    height: 4vh;
+    min-height: 30px;
+    margin: 0 0 0 20px;
+}
+
+#burgerLogos{
+    height: 10vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.burgerLogo{
+    margin: 0px 0 20px 0;
+}
+
