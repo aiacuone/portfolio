@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 #mainContentContainer{
@@ -25,7 +26,7 @@
     height: 100%;
     position: absolute;
     background: #131313;
-    opacity: .8;
+    opacity: .9;
     z-index: 0;
 }
 

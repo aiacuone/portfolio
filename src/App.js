@@ -13,9 +13,11 @@ function App() {
 let [windowWidth, setWindowWidth]=useState(window.innerWidth)
 let [windowHeight, setWindowHeight]=useState(window.innerHeight)
 let [dropdown, setDropdown]=useState(false)
+let [content, setContent]=useState('intro')
 
 function handleResize(){
     setWindowWidth(window.innerWidth)
+    setWindowHeight(window.innerHeight)
 }
 
 useEffect(()=>{
@@ -24,19 +26,26 @@ window.addEventListener('resize', handleResize)
 
   return (
     <div id='mainContentContainer'>
-         <div id='mainContentOverlay'/>
+      <div id='mainContentOverlay'/>
       <div id='header'>
-        {/* <HeaderLogo/> */}
-        <HeaderHamburger burgerClick={value=>setDropdown(value)}  dropdown={dropdown}/>
+        <HeaderHamburger 
+        burgerClick={value=>setDropdown(value)}  
+        dropdown={dropdown}/>
       </div>
-      {dropdown&&<Dropdown windowWidth={windowWidth} burgerClick={value=>setDropdown(value)}/>}
+      {dropdown&&<Dropdown
+       windowWidth={windowWidth} 
+       burgerClick={value=>setDropdown(value)}/>}
       <div id='main'>
-        <Content/>
+        <Content 
+        contentClick={value=>setContent(value)} 
+        content={content} 
+        windowHeight={windowHeight} 
+        windowWidth={windowWidth}/>
         <div id='footer'>
-          <Name windowWidth={windowWidth}/>
+          <Name 
+          windowWidth={windowWidth}/>
         </div>
       </div>
-
     </div>
   );
 }
