@@ -30,8 +30,6 @@
     z-index: 0;
 }
 
-#mainContent{
-}
 
 #main{
     height: 80%;
@@ -45,16 +43,23 @@
 
 #header{
     height: 10%;
-    width: 77.5%;
+    width: 90%;
     min-height: 40px;
     max-height: 60px;
     display: flex;
     z-index: 1;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    /* background: brown; */
+    display: flex;
+    justify-content: center;
 }
 
 
+
+#locationHeader{
+    width: 45%;
+    height: 100%;
+    /* background: rgb(139, 0, 0); */
+}
 
 #footer{
     width: 100%;
@@ -64,4 +69,5 @@
     z-index: 3;
     align-items: flex-end;
     justify-content: flex-end;
+    /* background: brown; */
 }

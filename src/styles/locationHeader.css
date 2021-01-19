@@ -1,0 +1,10 @@
+#locationHeader{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.location.header.long{
+    width: 40%;
+    max-width: 150px;
+    min-width: 100px;
+}

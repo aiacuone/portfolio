@@ -5,12 +5,12 @@ export default function IntroMainTall() {
         <div id='introMainTall'>
             <div id='introButtonsContainerTall'>
                 <div class='introButtonsContainer'>
-                    <button class='introButtonsTall'>About Me</button>
-                    <button class='introButtonsTall'>Work Interest</button>
+                    <button class='introButtons tall'>About Me</button>
+                    <button class='introButtons tall'>Work Interest</button>
                 </div>
                 <div class='introButtonsContainer'>
-                    <button class='introButtonsTall right'>Projects</button>
-                    <button class='introButtonsTall right'>Contact Me</button>
+                    <button class='introButtons tall right'>Projects</button>
+                    <button class='introButtons tall right'>Contact Me</button>
                 </div>
 
             </div>

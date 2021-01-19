@@ -1,0 +1,23 @@
+.name.header.container{
+    width: 45%;
+    height: 100%;
+    /* background: darkblue; */
+    display: flex;
+
+}
+
+
+
+.name.header{
+    /* width: 70%; */
+}
+
+.name.header.long{
+width: 70%;
+min-width: 300px;
+}
+
+.name.header.short{
+    width: 70%;
+    min-width: 120px;
+}
