@@ -1,14 +1,27 @@
 #headerHamburger{
-    width: 20%;
+    width: 100%;
     height: 100%;
-    background: purple;
+    /* background: purple; */
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+}
+
+#hamburgerLogoContainer{
+    height: 100%;
+    /* width: auto; */
+    background: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 #hamburgerLogo{
     height: 50%;
-    margin: 0 10px 0 0;
-    max-height: 25px;
+    /* margin: 0 10px 0 0; */
+    max-height: 20px;
+
 }

@@ -1,6 +1,7 @@
 #smallDropdown{
     width: 30%;
-    max-width: 400px;
-    background: cadetblue;
+    max-width: 300px;
+    min-width: 250px;
+    /* background: cadetblue; */
     position: absolute;
 }

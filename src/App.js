@@ -5,6 +5,7 @@ import Content from './Content'
 import Name from './Name'
 // import Location from './Location'
 import Dropdown from './Dropdown'
+// import heroBackground from './images/heroBackground.jpg'
 
 
 function App() {
@@ -22,18 +23,20 @@ window.addEventListener('resize', handleResize)
 },[])
 
   return (
-    <div id='mainContent'>
+    <div id='mainContentContainer'>
+         <div id='mainContentOverlay'/>
       <div id='header'>
-        <HeaderLogo/>
+        {/* <HeaderLogo/> */}
         <HeaderHamburger burgerClick={value=>setDropdown(value)}  dropdown={dropdown}/>
       </div>
-      <Dropdown windowWidth={windowWidth}/>
+      {dropdown&&<Dropdown windowWidth={windowWidth} burgerClick={value=>setDropdown(value)}/>}
       <div id='main'>
         <Content/>
+        <div id='footer'>
+          <Name windowWidth={windowWidth}/>
+        </div>
       </div>
-      <div id='footer'>
-        <Name windowWidth={windowWidth}/>
-      </div>
+
     </div>
   );
 }

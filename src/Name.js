@@ -24,7 +24,7 @@ export default function Name(props) {
             </div>
             <div id='locationContainer'>
             {props.windowWidth>=800&&<img id='location' alt='test' src={locationSVG}/>}
-            {props.windowWidth<800&&<img id='locationshort' alt='test' src={locationShortSVG}/>}
+            {props.windowWidth<800&&<img id='locationShort' alt='test' src={locationShortSVG}/>}
                 
             </div>
         </div>
