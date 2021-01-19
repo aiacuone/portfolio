@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function IntroMainWide() {
+export default function IntroMainWide(props) {
     return (
         <div id='introMainWide'>
             
@@ -10,15 +10,8 @@ export default function IntroMainWide() {
                     <button class='introButtons wide'>Work Interest</button>
                     <button class='introButtons wide'>Projects</button>
                     <button class='introButtons wide'>Contact Me</button>
-                {/* <div class='introButtonsContainer'>
-
-                </div>
-                <div class='introButtonsContainer'>
-
-                </div> */}
-                
             </div>
-            <div id='introPictureWide'/>
+            <div class='introPicture wide' />
         </div>
     )
 }

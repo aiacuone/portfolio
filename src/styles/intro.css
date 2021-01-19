@@ -5,17 +5,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* background: rgb(0, 70, 0); */
-
 }
 
 #introHeader{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     text-align: center;
-    /* white-space: nowrap; */
+
 }
 
 #introTitle{
@@ -37,31 +34,30 @@
 
 #introMainTall{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    /* height: 90%; */
     width: 100%;
     align-items: center;
     height: 60%;
 
 }
 
-#introPictureWide{
-    height: 70%;
-    width: 40%;
-    margin: 0 20px 0 0;
+.introPicture{
     background-image: url(../images/introBackground.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.introPicture.wide{
+    height: 100%;
+    width: 60%;
+    margin: 10px 0px 0 0;
     max-width: 500px;
 }
 
-#introPictureTall{
+.introPicture.tall{
     height: 50%;
     width: 90%;
-    background-image: url(../images/introBackground.jpg);
-    background-size: cover;
-    background-position: center;
     max-width: 400px;
 }
 
@@ -69,48 +65,33 @@
 
 .introButtonsContainer{
     display: flex;
-    flex-direction: column;
-    display: flex;
+    flex-direction: row;
     justify-content: center;
-    /* width: 120px; */
+    align-items: center;
+}
+
+.introButtons{
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    background: none;
+    border: 1px white solid;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 130px;
 }
 
 .introButtons.wide{
-    color: white;
-    padding: 10px 20px 10px 20px;
-    background: none;
-    border: 1px white solid;
-    border-radius: 10px;
-    margin: 10px 10px 10px 10px;
-    /* width: 10vw; */
-    white-space: nowrap;
-    /* width: auto; */
-}
-
-.introButtonsContainer.wide{
-    display: flex;
-    flex-direction: row;
-
+    margin: 10px 10px 0px 10px;
 }
 
 .introButtons.tall{
-    color: white;
-    padding: 10px 20px 10px 20px;
-    background: none;
-    border: 1px white solid;
-    border-radius: 10px;
-    margin: 10px 0 10px 0px;
-    /* width: 10vw; */
-    white-space: nowrap;
+    margin: 10px 5px 10px 5px;
 }
 
-.introButtons.tall.right{
-    margin-left: 20px;
-}
 
-#introButtonsContainerTall{
-    display: flex;
-    flex-direction: row;
+.introButtonsContainer.tall{
+    flex-direction: column;
+    width: 300px;
 }
 
 @media all and (max-height: 500px){
@@ -122,18 +103,11 @@
     }
 }
 
-@media all and (max-height: 900px){
-    /* #introButtonsContainerTall{
-        flex-direction: row;
-    } */
-
-    .introButtonsTall.right{
-        /* margin-left: 20px; */
-    }
-}
-
-@media all and (max-width: 600px), (max-height: 400px){
+@media all and (max-width: 600px), (max-height: 450px){
     #introTitle, p{
         font-size: 12px;
+    }
+    .introPicture.wide{
+        max-width: 250px;
     }
 }
