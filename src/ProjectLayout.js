@@ -19,9 +19,9 @@ export default function ProjectLayout(props) {
 
     return (
         <div class='projectLayout'>
-            <div class='projectHeader'>
+            {/* <div class='projectHeader'>
                 {props.content==='tekkennet'&&<img src={tekkennetLogo}/>}
-            </div>
+            </div> */}
             {props.windowWidth>props.windowHeight&&<ProjectLayoutWide content={props.content} projectScreenshotStyle={projectScreenshotStyle}/>}
             {props.windowWidth<=props.windowHeight&&<ProjectLayoutTall content={props.content} projectScreenshotStyle={projectScreenshotStyle}/>}
             

@@ -5,41 +5,53 @@
 
 .projectLayout{
     width: 100%;
-    height: 80%;
+    height: 100%;
     /* height: 100%; */
     /* background: green; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    padding: 0 2vw 0 2vw;
+    /* padding: 0 2vw 0 2vw; */
     margin: 0vh 0 0 0;
 }
 
-.projectHeader{
-    height: 5%;
-    /* min-height: 50px; */
-    /* height: 100%; */
-    width: 17%;
+.projectHeader.wide{
+    width: 30vw;
     min-width: 200px;
+    max-width: 350px;
     /* background: rgb(46, 90, 90); */
+    margin: 0 0 2vh 0;
+}
+
+.projectHeader.tall{
+    /* height: 2vh; */
+    /* background: rgb(126, 126, 0); */
+    width: 100%;
     display: flex;
-    /* justify-content: flex-end; */
-    align-items: flex-end;
+    justify-content: center;
+}
+
+.projectTekkennetLogo.tall{
+    width: 50%;
+    min-width: 150px;
+    max-width: 350px;
+    margin: 0 0 1vh 0;
 }
 
 .projectContainer{
-    height: 90%;
+    height: 100%;
     width: 100%;
     /* background: rgb(73, 15, 73); */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2vh 0 2vh 0;
+    /* margin: 2vh 0 2vh 0; */
 }
 
 .projectContainer.tall{
     flex-direction: column;
+    /* height: 100%; */
 }
 
 .projectPicture{
@@ -51,12 +63,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /* padding: 0 0 2vh 0; */
 }
 
 .projectPicture.tall{
-    min-width: 200px;
+    width: 100%;
     padding: 10px 0 0 0;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .projectScreenshot{
@@ -69,37 +82,72 @@
     width: 100%;
 }
 
-/* .tekkennetScreenshot{
-    background-image: url(../images/tekkenScreenshot.jpg);
-} */
+.projectScreenshot.tall{
+    max-height: none;
+    width: 80%;
+    max-width: none;
+}
+
 
 .projectInfo{
-    height: 100%;
+    /* height: 100%; */
     width: 65%;
     min-width: 150px;
-    /* background: darkblue; */
     padding: 0 0px 0 1vw;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    /* word-wrap:break-word; */
+    /* background: cornflowerblue; */
 
 }
 
 .projectInfo.tall{
-    width: 90%;
+    /* margin: 10px 0 10px 0; */
+    width: 100%;
+    display: plex;
+    justify-content: center;
 }
 
-.projectText{
+.projectTextContainer{
     width: 100%;
     max-width: 800px;
     /* height: 100%; */
     max-height: 600px;
-    /* background: rgb(129, 84, 0); */
+    /* position: relative; */
     word-wrap:break-word;
+    /* padding: 30px; */
+
 
 }
 
+.projectTekkennetLogo{
+    /* width: 30vw; */
+    cursor: pointer;
+}
+
+.projectText{
+    background: rgb(255, 255, 255);
+    /* background:#506f8ebd; */
+    /* padding: 5px 10px 15px 10px; */
+    padding: 4vh 4vw 6vh 4vw;
+    border-radius: 10px;
+    position: relative;
+}
+
+.projectTextNew{
+    width: 90%;
+    margin: 0px 0 1vh 0;
+}
+
+.projectTextOverlay{
+    position: absolute;
+    /* background:#506F8E; */
+    opacity: .7;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 10px;
+    /* transform: scale(1.1); */
+}
 
 .projectButtonContainer{
     /* background: crimson; */
@@ -116,8 +164,8 @@
 }
 
 @media all and (max-height: 450px){
-    .projectText.wide{
-        font-size: 10px;
+    .projectTextContainer.wide{
+        font-size: 12px;
     }
     .viewProjectButton.introButtons{
         padding: 3px 0px 3px 0px;

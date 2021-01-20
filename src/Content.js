@@ -26,7 +26,6 @@ export default function Content(props) {
             content={props.content}
             windowWidth={props.windowWidth} 
             windowHeight={props.windowHeight}/>}
-            {/* {props.content==='tekkennet'&&<TekkenNet content={props.content}/>} */}
 
         </div>
     )

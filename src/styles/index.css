@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    /* color: white; */
     /* background: black; */
 }
 
@@ -39,7 +39,8 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    margin: 0 0 15vh 0;
+    margin: 0 0 5vh 0;
+    /* background: purple; */
 }
 
 #header{
@@ -52,6 +53,7 @@
     display: flex;
     justify-content: center;
     margin: 5vh 0 0 0;
+    /* background: rgb(163, 163, 67); */
 }
 
 #locationHeader{
@@ -60,14 +62,3 @@
     /* background: rgb(139, 0, 0); */
 }
 
-@media all and (max-height: 850px){
-    #main{
-        margin: 0 0 5vh 0;
-    }
-}
-
-@media all and (max-height: 400px){
-    #main{
-        margin: 0 0 0vh 0;
-    }
-}
