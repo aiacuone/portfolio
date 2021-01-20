@@ -11,7 +11,7 @@
 }
 
 .projectsContainer{
-    background: chocolate;
+    /* background: chocolate; */
     height: 100%;
     width: 50%;
     display: flex;
@@ -24,14 +24,24 @@
 .projectsHeader{
     height: 5vh;
     min-height: 30px;
+    max-height: 45px;
     width: 10vw;
-    min-width: 100px;
+    min-width: 80px;
+    max-width: 120px;
     margin: 0 0 2vh 0;
 }
 
 .tekkennetLogo{
     cursor: pointer;
     width: 20vw;
-    min-width: 300px;
+    min-width: 250px;
     margin: 0 0 2vh 0;
+}
+
+.projectsLogo{
+    transition: all .2s ease-out;
+}
+
+.projectsLogo:hover{
+    filter: drop-shadow(rgba(255, 255, 255, 0.328) 0px 3px 4px);
 }

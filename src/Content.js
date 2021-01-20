@@ -5,7 +5,8 @@ import AboutMe from './AboutMe'
 import Interests from './Interests'
 import Projects from './Projects'
 import ContactMe from './ContactMe'
-import TekkenNet from './TekkenNet'
+import ProjectLayout from './ProjectLayout'
+// import TekkenNet from './TekkenNet'
 
 export default function Content(props) {
     return (
@@ -18,9 +19,14 @@ export default function Content(props) {
 
             {props.content==='aboutMe'&&<AboutMe/>}
             {props.content==='interests'&&<Interests/>}
-            {props.content==='projects'&&<Projects contentChange={value=>props.contentChange(value)}/>}
+            {props.content==='projects'&&<Projects 
+            contentChange={value=>props.contentChange(value)}/>}
             {props.content==='contactMe'&&<ContactMe/>}
-            {props.content==='tekkennet'&&<TekkenNet/>}
+            {props.content==='tekkennet'&&<ProjectLayout 
+            content={props.content}
+            windowWidth={props.windowWidth} 
+            windowHeight={props.windowHeight}/>}
+            {/* {props.content==='tekkennet'&&<TekkenNet content={props.content}/>} */}
 
         </div>
     )
