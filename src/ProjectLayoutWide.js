@@ -1,19 +1,20 @@
 import React from 'react'
+import TekkenProjectText from './TekkenProjectText'
 
-export default function ProjectLayoutWide() {
+export default function ProjectLayoutWide(props) {
     return (
-        <div>
-            {/* <div class='projectHeader'>
-                {props.content==='tekkennet'&&<img src={tekkennetLogo}/>}
+        <div class='projectContainer wide'>
+            <div class='projectPicture wide'>
+                <div class='projectScreenshot wide' style={props.projectScreenshotStyle}></div>
             </div>
-            <div class='projectContainer'>
-                <div class='projectPicture'>
-                    {props.content==='tekkennet'&&<div class='projectScreenshot tekkennetScreenshot'></div>}
+            <div class='projectInfo wide'>
+                <div class='projectText wide'>
+                {props.content==='tekkennet'&&<TekkenProjectText/>}
+                    <div class='projectButtonContainer'>
+                        <button class='viewProjectButton introButtons'>View Project</button>
+                    </div>
                 </div>
-                <div class='projectInfo'>
-
-                </div>
-            </div> */}
+            </div>
         </div>
     )
 }

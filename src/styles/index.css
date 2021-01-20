@@ -60,7 +60,7 @@
     /* background: rgb(139, 0, 0); */
 }
 
-@media all and (max-height: 800px){
+@media all and (max-height: 850px){
     #main{
         margin: 0 0 5vh 0;
     }
