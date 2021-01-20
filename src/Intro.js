@@ -17,8 +17,11 @@ export default function Intro(props) {
                     I am a self taught software developer living in London.<br/>
                     Please select from one of the following options to continue! </p>
             </div>
-            {props.windowWidth>=props.windowHeight&&<IntroMainWide windowWidth={props.windowWidth}/>}
-            {props.windowWidth<props.windowHeight&&<IntroMainTall/>}
+            {props.windowWidth>=props.windowHeight&&<IntroMainWide 
+            windowWidth={props.windowWidth} 
+            contentChange={value=>props.contentChange(value)}/>}
+            {props.windowWidth<props.windowHeight&&<IntroMainTall
+            contentChange={value=>props.contentChange(value)}/>}
         </div>
     )
 }

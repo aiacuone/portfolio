@@ -36,17 +36,15 @@ window.addEventListener('resize', handleResize)
       </div>
       {dropdown&&<Dropdown
        windowWidth={windowWidth} 
-       burgerClick={value=>setDropdown(value)}/>}
+       burgerClick={value=>setDropdown(value)} 
+       contentChange={value=>setContent(value)} />}
+       
       <div id='main'>
         <Content 
-        contentClick={value=>setContent(value)} 
+        contentChange={value=>setContent(value)} 
         content={content} 
         windowHeight={windowHeight} 
         windowWidth={windowWidth}/>
-        <div id='footer'>
-          {/* <Name 
-          windowWidth={windowWidth}/> */}
-        </div>
       </div>
     </div>
   );

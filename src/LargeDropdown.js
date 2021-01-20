@@ -5,7 +5,9 @@ import DropdownMenu from './DropdownMenu'
 export default function LargeDropdown(props) {
     return (
         <div id='largeDropdown'>
-            <DropdownMenu burgerClick={props.burgerClick}/>
+            <DropdownMenu 
+            burgerClick={props.burgerClick}
+            contentChange={value=>props.contentChange(value)}/>
         </div>
     )
 }

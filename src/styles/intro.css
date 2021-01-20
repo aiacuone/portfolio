@@ -46,12 +46,13 @@
     background-image: url(../images/introBackground.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 .introPicture.wide{
     height: 100%;
     width: 60%;
-    margin: 10px 0px 0 0;
+    margin: 0px 0px 0 0;
     max-width: 500px;
 }
 
@@ -74,14 +75,14 @@
     cursor: pointer;
     padding: 10px 20px 10px 20px;
     background: none;
-    border: 1px white solid;
+    border: 2px white solid;
     border-radius: 10px;
     white-space: nowrap;
     width: 130px;
 }
 
 .introButtons.wide{
-    margin: 10px 10px 0px 10px;
+    margin: 3vh 1vw 3vh 1vw;
 }
 
 .introButtons.tall{

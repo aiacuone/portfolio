@@ -5,7 +5,9 @@ import DropdownMenu from './DropdownMenu'
 export default function SmallDropdown(props) {
     return (
         <div id='smallDropdown'>
-            <DropdownMenu burgerClick={props.burgerClick}/>
+            <DropdownMenu 
+            burgerClick={props.burgerClick}
+            contentChange={value=>props.contentChange(value)}/>
         </div>
     )
 }
