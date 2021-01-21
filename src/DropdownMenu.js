@@ -12,10 +12,6 @@ export default function DropdownMenu(props) {
 
     return (
         <div id='dropdownMenu'>
-            {/* <h3 class='burgerSelect' onClick={event=>props.burgerClick(false)}>HOME</h3>
-            <h3 class='burgerSelect' onClick={event=>props.burgerClick(false)}>ABOUT ME</h3>
-            <h3 class='burgerSelect' onClick={event=>props.burgerClick(false)}>WORK INTERESTS</h3>
-            <h3 class='burgerSelect' onClick={event=>props.burgerClick(false)}>PROJECTS</h3> */}
             <h3 class='burgerSelect' onClick={()=>handleClick('intro')}>HOME</h3>
             <h3 class='burgerSelect' onClick={()=>handleClick('aboutMe')}>ABOUT ME</h3>
             <h3 class='burgerSelect' onClick={()=>handleClick('interests')}>WORK INTERESTS</h3>
