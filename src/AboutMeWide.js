@@ -1,6 +1,6 @@
 import React from 'react'
 // import aboutMeHeader from './images/aboutMeHeader.svg'
-import aboutMeHeaderWide from './images/aboutMeHeaderWide.svg'
+import aboutMeHeader from './images/aboutMeHeader.svg'
 
 export default function AboutMeWide(props) {
     return (
@@ -10,7 +10,7 @@ export default function AboutMeWide(props) {
             </div>
             <div class='aboutMeTextContainer'>
                 {/* {props.windowHeight>=props.windowWidth&&<img class='aboutMeHeader' src={aboutMeHeader}></img>} */}
-                {props.windowHeight<props.windowWidth&&<img class='aboutMeHeader wide' src={aboutMeHeaderWide}></img>}
+                {props.windowHeight<props.windowWidth&&<img class='aboutMeHeader wide' src={aboutMeHeader}></img>}
                 <div class='aboutMeText'>
                     <b>Name:</b> Adrian Iacuone<br/>
                     <b>DOB:</b> May 1987<br/>

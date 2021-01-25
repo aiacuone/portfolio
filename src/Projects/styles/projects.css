@@ -13,19 +13,19 @@
 
 
 .projectsHeader{
-    height: 5vh;
-    min-height: 30px;
-    max-height: 45px;
-    width: 10vw;
-    min-width: 80px;
-    max-width: 120px;
+    width: 11vw;
+    min-width: 100px;
+    max-width: 150px;
     margin: 0 0 2vh 0;
+    /* border-bottom: 2px solid #506F8E; */
+    padding: 0 0 3px 0;
 }
 
-.tekkennetLogo{
+.projectsLogo{
     cursor: pointer;
-    width: 20vw;
-    min-width: 250px;
+    width: 18vw;
+    min-width: 200px;
+    max-width: 350px;
     margin: 0 0 2vh 0;
 }
 

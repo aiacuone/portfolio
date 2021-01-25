@@ -13,6 +13,7 @@ export default function Projects(props) {
     return (
         <div class='projects'>
             <img class='projectsHeader' src={projectsHeader}/>
+            
             <img class='tekkennetLogo projectsLogo'src={tekkennetLogo} onClick={event=>props.contentChange('tekkennet')}/>
         </div>
     )

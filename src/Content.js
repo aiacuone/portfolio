@@ -21,14 +21,18 @@ export default function Content(props) {
                 windowWidth={props.windowWidth} 
                 windowHeight={props.windowHeight}/>}
             
-            {props.content==='interests'&&<Interests/>}
+            {props.content==='interests'&&<Interests
+                windowWidth={props.windowWidth} 
+                windowHeight={props.windowHeight}/>}
 
             {props.content==='projects'&&<Projects 
                 windowWidth={props.windowWidth} 
                 windowHeight={props.windowHeight}
                 contentChange={value=>props.contentChange(value)}/>}
 
-            {props.content==='contactMe'&&<ContactMe/>}
+            {props.content==='contactMe'&&<ContactMe
+                windowWidth={props.windowWidth} 
+                windowHeight={props.windowHeight}/>}
 
             {props.content==='tekkennet'&&<ProjectLayout 
                 content={props.content}
