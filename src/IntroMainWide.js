@@ -6,10 +6,10 @@ export default function IntroMainWide(props) {
         <div id='introMainWide'>
             
             <div class='introButtonsContainer wide'>
-                <button onClick={event=>props.contentChange('aboutMe')} class='introButtons wide'>About Me</button>
-                <button onClick={event=>props.contentChange('interests')} class='introButtons wide'>Work Interest</button>
-                <button onClick={event=>props.contentChange('projects')} class='introButtons wide'>Projects</button>
-                <button onClick={event=>props.contentChange('contactMe')} class='introButtons wide'>Contact Me</button>
+                <button onClick={event=>props.contentChange('aboutMe')} class='introButtons wide'><b>ABOUT ME</b></button>
+                <button onClick={event=>props.contentChange('interests')} class='introButtons wide'><b>WORK INTERESTS</b></button>
+                <button onClick={event=>props.contentChange('projects')} class='introButtons wide'><b>PROJECTS</b></button>
+                <button onClick={event=>props.contentChange('contactMe')} class='introButtons wide'><b>CONTACT ME</b></button>
             </div>
             <div class='introPicture wide' />
         </div>

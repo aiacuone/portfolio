@@ -1,0 +1,112 @@
+.aboutMe{
+    width: 100%;
+    height: 100%;
+    /* background: rgb(121, 121, 0); */
+    display: flex;
+    align-items: center;
+}
+
+.aboutMeContainer{
+    width: 100%;
+    height: 100%;
+    /* background: rgb(121, 121, 0); */
+    display: flex;
+    align-items: center;
+
+}
+
+.aboutMeContainer.wide{
+    padding: 0 0 12vh 0;
+}
+
+.aboutMeContainer.tall{
+    flex-direction: column;
+}
+
+
+.aboutMePictureContainer{
+    height: 100%;
+    width: 45%;
+    /* background: brown; */
+    padding: 2vh 1vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.aboutMePictureContainer.tall{
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    padding: 4vh 4vw;
+}
+
+.aboutMePicture{
+    height: 100%;
+    max-height: 400px;
+    width: 100%;
+    max-width: 600px;
+    background-image: url(../images/aboutMeBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.aboutMePicture.tall{
+    width: 100%;
+
+}
+
+.aboutMeTextContainer{
+    height: 100%;
+    width: 55%;
+    /* background: rgb(58, 0, 124); */
+    padding: 0 0 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    overflow: hidden;
+    line-height: 25px;
+}
+
+.aboutMeTextContainer.tall{
+    height: 50%;
+    max-height: 300px;
+    width: 80%;
+    align-items: center;
+}
+
+.aboutMeHeader{
+    /* height: 20px; */
+    width: 11vw;
+    min-width: 200px;
+    /* background: orange; */
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 2vh 0;
+    padding: 0 0 5px 0;
+    border-bottom: 2px solid #506F8E;
+    background-repeat: no-repeat;
+}
+
+.aboutMeHeader.tall{
+    width: 20vh;
+    min-width: 150px;
+    max-width: 200px;
+    /* height: 10vh; */
+    border-bottom: 2px solid #506F8E;
+}
+
+@media all and (max-height:1000px){
+    .aboutMeContainer.wide{
+        padding: 0 0 10vh 0;
+    }
+}
+
+@media all and (max-height:500px){
+    .aboutMeContainer.wide{
+        padding: 0 0 2vh 0;
+    }
+}

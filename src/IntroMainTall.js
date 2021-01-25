@@ -5,12 +5,12 @@ export default function IntroMainTall(props) {
         <div id='introMainTall'>
             <div class='introButtonsContainer tall'>
                 <div class='introButtonsContainer'>
-                    <button onClick={event=>props.contentChange('aboutMe')} class='introButtons tall left'>About Me</button>
-                    <button onClick={event=>props.contentChange('interests')} class='introButtons tall right'>Work Interest</button>
+                    <button onClick={event=>props.contentChange('aboutMe')} class='introButtons tall left'><b>ABOUT ME</b></button>
+                    <button onClick={event=>props.contentChange('interests')} class='introButtons tall right'><b>WORK INTERESTS</b></button>
                 </div>
                 <div class='introButtonsContainer'>
-                    <button onClick={event=>props.contentChange('projects')} class='introButtons tall left'>Projects</button>
-                    <button onClick={event=>props.contentChange('contactMe')} class='introButtons tall right'>Contact Me</button>
+                    <button onClick={event=>props.contentChange('projects')} class='introButtons tall left'><b>PROJECTS</b></button>
+                    <button onClick={event=>props.contentChange('contactMe')} class='introButtons tall right'><b>CONTACT ME</b></button>
                 </div>
 
             </div>

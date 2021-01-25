@@ -14,8 +14,9 @@ export default function Intro(props) {
                 {props.windowHeight>600&&<img id='introTitle' src={introTitle}/>}
                 {props.windowHeight<=600&&<img id='introTitle' src={introTitleLong}/>}
                 <p>
-                    I am a self taught software developer living in London.<br/>
-                    Please select from one of the following options to continue! </p>
+                    I recently made the career change to a software developer, to utilise the extra time brought upon by Covid-19.<br/>
+                    During that time, i've put the majority of my focus towards courses and projects using both React and Javascript.<br/> 
+                    To Continue, please select from one of the following options! </p>
             </div>
             {props.windowWidth>=props.windowHeight&&<IntroMainWide 
             windowWidth={props.windowWidth} 

@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* background: rgb(128, 83, 0); */
+    padding: 0 0 12vh 0;
 }
 
 #introHeader{
@@ -12,12 +14,15 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-
+    margin: 2vh 0 0 0;
+    /* line-height: 20px; */
 }
 
 #introTitle{
     width: 200px;
-    margin:  0 0 10px 0;
+    margin:  0 0 2vh 0;
+    border-bottom: 2px solid #506F8E;
+    padding: 0 0 5px 0;
 }
 
 #introMainWide{
@@ -26,10 +31,10 @@
     height: 100%;
     width: 100%;
     align-items: center;
-    height: 60%;
+    height: 100%;
     flex-direction: column;
-    max-height: 350px;
-
+    max-height: 400px;
+    /* background: green; */
 }
 
 #introMainTall{
@@ -38,8 +43,10 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    height: 60%;
-
+    /* justify-content: center; */
+    height: 70%;
+    /* height: 100%; */
+    /* background: darkblue; */
 }
 
 .introPicture{
@@ -53,13 +60,13 @@
     height: 100%;
     width: 60%;
     margin: 0px 0px 0 0;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .introPicture.tall{
     height: 50%;
     width: 90%;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 
@@ -78,7 +85,7 @@
     border: 3px #506F8E solid;
     border-radius: 10px;
     white-space: nowrap;
-    width: 130px;
+    width: 170px;
     /* transition: all .2s ease-out; */
 }
 
@@ -94,12 +101,26 @@
 
 .introButtons.tall{
     margin: 10px 5px 10px 5px;
+
+    /* padding: 10px 50px 10px 50px; */
 }
 
 
 .introButtonsContainer.tall{
     flex-direction: column;
     width: 300px;
+}
+
+@media all and (max-height:1000px){
+    #intro{
+        padding: 0 0 10vh 0;
+    }
+}
+
+@media all and (max-height:500px){
+    #intro{
+        padding: 0 0 2vh 0;
+    }
 }
 
 @media all and (max-height: 500px){
@@ -116,6 +137,6 @@
         font-size: 12px;
     }
     .introPicture.wide{
-        max-width: 250px;
+        /* max-width: 250px; */
     }
 }
