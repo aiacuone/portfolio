@@ -9,7 +9,6 @@ export default function AboutMeWide(props) {
                 <div class='aboutMePicture'/>
             </div>
             <div class='aboutMeTextContainer'>
-                {/* {props.windowHeight>=props.windowWidth&&<img class='aboutMeHeader' src={aboutMeHeader}></img>} */}
                 {props.windowHeight<props.windowWidth&&<img class='aboutMeHeader wide' src={aboutMeHeader}></img>}
                 <div class='aboutMeText'>
                     <b>Name:</b> Adrian Iacuone<br/>

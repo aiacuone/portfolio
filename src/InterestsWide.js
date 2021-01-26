@@ -9,7 +9,6 @@ export default function InterestsWide(props) {
             <div class='interestsInfoContainer wide'>
                 <div class='InterestsInfo'>
                     <text>
-                        {/* <h2 class='interestsHeader'><b>Work Interests</b></h2> */}
                         <img class='interestsHeader'src={interestsHeader}></img><br/>
                             I am at the early stages of my career, and would love to work within an experienced group, so I can learn what they have to offer.<br/>
                             More specifically, main focus is applications using both Javascript and React.<br/>

@@ -1,12 +1,10 @@
 import React from 'react'
-import './styles/content.css'
 import Intro from './Intro'
 import AboutMe from './AboutMe'
 import Interests from './Interests'
 import Projects from './Projects/Projects'
 import ContactMe from './ContactMe'
 import ProjectLayout from './Projects/ProjectLayout'
-// import TekkenNet from './TekkenNet'
 
 export default function Content(props) {
     return (

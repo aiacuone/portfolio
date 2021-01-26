@@ -20,9 +20,7 @@
 width: 60%;
 display: flex;
 justify-content: center;
-/* padding: 3vh 0 3vh 0; */
 cursor: pointer;
-/* margin: 0 20px 0 20px; */
 }
 
 .burgerSelect:hover{
@@ -31,7 +29,6 @@ cursor: pointer;
 
 
 .burgerSelect:first-child{
-    /* border-top: 1px grey solid; */
     padding: 2vh 0 2vh 0;
     margin: 20px 0 0 0;
 }
@@ -39,8 +36,6 @@ cursor: pointer;
 
 
 .burgerSelect:nth-child(2){
-    /* border-top: 1px black solid;
-    border-bottom: 1px black solid; */
     padding: 2vh 0 2vh 0;
 }
 
@@ -53,22 +48,15 @@ cursor: pointer;
 }
 
 .burgerSelect:nth-last-child(2){
-    /* border-top: 1px black solid;
-    border-bottom: 1px black solid; */
-    /* background: yellow;/ */
     padding: 2vh 0 2vh 0;
     margin: 0 0 20px 0;
 }
 
 #burgerLinkedIn{
-    /* height: 4vh; */
-    /* min-height: 30px; */
     margin: 0 20px 0 0;
 }
 
 #burgerEmail{
-    /* height: 4vh; */
-    /* min-height: 30px; */
     margin: 0 0 0 20px;
 }
 

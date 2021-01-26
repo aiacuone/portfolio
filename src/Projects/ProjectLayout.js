@@ -1,5 +1,4 @@
 import React, {useState,useEffect} from 'react'
-// import tekkennetLogo from './images/tekkennetLogo.svg'
 import ProjectLayoutWide from './ProjectLayoutWide'
 import ProjectLayoutTall from './ProjectLayoutTall'
 import tekkenScreenshot from './images/tekkenScreenshot.jpg'

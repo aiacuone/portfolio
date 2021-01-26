@@ -1,15 +1,8 @@
 .name.header.container{
     width: 45%;
     height: 100%;
-    /* background: darkblue; */
     display: flex;
-
-}
-
-
-
-.name.header{
-    /* width: 70%; */
+    /* background: darkblue; */
 }
 
 .name.header.long{

@@ -10,12 +10,6 @@ import locationShortSVG from './images/locationSmall.svg'
 
 export default function Name(props) {
 
-
-
-
-
-// let name=document.getElementById='name'
-
     return (
         <div id='name' >
             <div id='details'>

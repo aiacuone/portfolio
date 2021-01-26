@@ -30,6 +30,4 @@ export default function Projects(props) {
 
 }
 
-function changeProjectContent(){
 
-}

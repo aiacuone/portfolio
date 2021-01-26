@@ -20,7 +20,6 @@
     background-position: center;
     background-repeat: no-repeat;
     z-index: -4;
-    /* padding: 5vh 5vw 1vh 5vw; */
 
 }
 
@@ -40,7 +39,6 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    /* background: purple; */
 }
 
 #header{
@@ -53,13 +51,11 @@
     display: flex;
     justify-content: center;
     margin: 5vh 0 0 0;
-    /* background: rgb(163, 163, 67); */
 }
 
 #locationHeader{
     width: 45%;
     height: 100%;
-    /* background: rgb(139, 0, 0); */
 }
 
 #content{
@@ -76,7 +72,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: yellow; */
 }
 
 .headerHomeLogo{

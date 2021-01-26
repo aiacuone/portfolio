@@ -11,7 +11,6 @@
     justify-content: center;
     align-items: center;
     /* background: yellowgreen; */
-    /* padding: 0 0 10vh 0; */
 }
 
 .interestsContainer.wide{
@@ -19,18 +18,16 @@
 }
 
 .interestsContainer.tall{
-    /* display: flex; */
     flex-direction: column;
 
 }
 
 .interestsInfoContainer{
     width: 50%;
-    /* height: 100%; */
-    /* background: violet; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    /* background: violet; */
 }
 
 .interestsInfoContainer.tall{
@@ -44,11 +41,11 @@
     width: 100%;
     max-width: 600px;
     height: 100%;
-    /* background: seagreen; */
     display: flex;
     align-items: center;
     text-align: end;
     overflow: hidden;
+    /* background: seagreen; */
 }
 
 .InterestsInfo.tall{
@@ -59,12 +56,11 @@
 .interestsPictureContainer{
     width: 50%;
     height: 90%;
-    /* background: brown; */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     padding: 2vh 2vw;
     margin: 0 0 2vh 0;
+    /* background: brown; */
 }
 
 .interestsPictureContainer.tall{
@@ -79,12 +75,11 @@
     max-width: 600px;
     height: 100%;
     max-height: 450px;
-    /* background: royalblue; */
     background-image: url(../images/interestsBackground.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-
+    /* background: royalblue; */
 }
 
 .interestsPicture.tall{
@@ -94,20 +89,15 @@
 }
 
 .interestsHeader{
-    /* border-bottom: 2px #506F8E solid; */
-    /* width: auto; */
     width: 15vw;
     min-width: 200px;
     max-width: 250px;
     padding: 0 0 5px 0;
-    /* min-width: 150px; */
     margin: 0 0 2vh 0;
 }
 
 .interestsHeader.tall{
     width:25vh;
-    /* max-width: none;
-    min-width: none; */
     max-width: 200px;
     min-width: 150px;
 }
@@ -125,13 +115,6 @@
     min-width: 50px;
     margin: 1vh 1vw 0 0;
 }
-
-/* .javascriptLogo{
-    width: 5vw;
-    max-width: 100px;
-    min-width: 70px;
-    margin: 1vh 0 0 0;
-} */
 
 @media all and (max-height:1000px){
     .interestsContainer.wide{
