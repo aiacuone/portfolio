@@ -20,13 +20,6 @@
     /* background: orange; */
 }
 
-.projectsContainer.wide{
-    background: rgb(151, 98, 0);
-}
-
-.projectsContainer.tall{
-    background: blue;
-}
 
 .projectsInfo{
     display: flex;
@@ -65,10 +58,10 @@
 .projectsLogosBackground{
     position: absolute;
     opacity: .3;
-    /* opacity: .6; */
+    /* opacity: .9; */
     /* background: #506F8E; */
-    /* background: black; */
-    background: rgb(65, 65, 65);
+    background: black;
+    /* background: rgb(31, 31, 31); */
     width: 50%;
     min-width: 200px;
     height: 100%;
@@ -316,7 +309,7 @@
 
 }
 
-@media all and (max-height:850px){
+@media all and (max-height:600px){
     .projectsInfo{
         margin: 0;
     }

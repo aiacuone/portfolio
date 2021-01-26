@@ -39,6 +39,11 @@ export default function Content(props) {
                 windowWidth={props.windowWidth} 
                 windowHeight={props.windowHeight}/>}
 
+            {props.content==='freecodecamp'&&<ProjectLayout 
+                content={props.content}
+                windowWidth={props.windowWidth} 
+                windowHeight={props.windowHeight}/>}
+
         </div>
     )
 }

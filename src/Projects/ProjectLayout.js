@@ -3,6 +3,7 @@ import React, {useState,useEffect} from 'react'
 import ProjectLayoutWide from './ProjectLayoutWide'
 import ProjectLayoutTall from './ProjectLayoutTall'
 import tekkenScreenshot from './images/tekkenScreenshot.jpg'
+import freecodecampScreenshot from './images/freecodecampScreenshot.jpg'
 
 export default function ProjectLayout(props) {
 
@@ -10,6 +11,8 @@ export default function ProjectLayout(props) {
 
     useEffect(()=>{
         props.content==='tekkennet'&&setScreenshotImage(tekkenScreenshot)
+        props.content==='freecodecamp'&&setScreenshotImage(freecodecampScreenshot)
+
     })
 
     let projectScreenshotStyle={
