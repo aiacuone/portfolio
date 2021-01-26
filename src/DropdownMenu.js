@@ -1,7 +1,7 @@
 import React, {} from 'react'
 import './styles/dropdownMenu.css'
 import linkedInLogo from './images/linkedInSVG.svg'
-import emailSVG from './images/emailSVG.svg'
+import emailSVG from './images/emailHamburgerSVG.svg'
 
 export default function DropdownMenu(props) {
 

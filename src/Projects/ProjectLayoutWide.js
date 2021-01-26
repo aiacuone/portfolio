@@ -24,7 +24,7 @@ export default function ProjectLayoutWide(props) {
                     <div class='projectTextContainer wide'>
                         {props.content==='tekkennet'&&<TekkenProjectText/>}
                         <div class='projectButtonContainer wide'>
-                            <button class='viewProjectButton introButtons'>View Project</button>
+                            <button class='viewProjectButton introButton'>View Project</button>
                         </div>
                     </div>
                 </div>

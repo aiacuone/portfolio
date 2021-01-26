@@ -12,7 +12,7 @@ export default function Content(props) {
     return (
         <div id='content'>
 
-            {props.content==='intro'&&<Intro 
+            {props.content==='home'&&<Intro 
                 windowWidth={props.windowWidth} 
                 windowHeight={props.windowHeight}
                 contentChange={value=>props.contentChange(value)}/>}

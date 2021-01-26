@@ -1,32 +1,93 @@
 .projects{
     /* background: chocolate; */
-    width: 50%;
-    height: 60%;
+    width: 90%;
+    /* max-width: 700px; */
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     /* background: green; */
     flex-direction: column;
     /* padding: 0 0 20vh 0; */
-    margin: 0 0 30vh 0;
+    /* margin: 0 0 30vh 0; */
+}
+
+.projectsContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex-direction:; */
+    /* background: orange; */
+}
+
+.projectsContainer.wide{
+    background: rgb(151, 98, 0);
+}
+
+.projectsContainer.tall{
+    background: blue;
+}
+
+.projectsInfo{
+    display: flex;
+    flex-direction: column;
+    /* background: purple; */
+    width: 100%;
+    max-width: 500px;
+    margin: 0 0 15vh 0;
 }
 
 
 .projectsHeader{
-    width: 11vw;
-    min-width: 100px;
-    max-width: 150px;
-    margin: 0 0 2vh 0;
+    width: 30%;
+    min-width: 120px;
+    /* margin: 0 0 2vh 0; */
     /* border-bottom: 2px solid #506F8E; */
     padding: 0 0 3px 0;
 }
 
+.projectsText{
+    margin: 2vh 0;
+    /* text-align: center; */
+}
+
+.projectsLogosContainer{
+    /* background: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    /* min-width: 400px; */
+    position: relative;
+    /* max-width: 500px; */
+}
+
+.projectsLogosBackground{
+    position: absolute;
+    opacity: .3;
+    /* opacity: .6; */
+    /* background: #506F8E; */
+    /* background: black; */
+    background: rgb(65, 65, 65);
+    width: 50%;
+    min-width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.projectsLogosHeader{
+    z-index: 1;
+    margin: 1vh 1vw .5vh 0;
+
+}
+
 .projectsLogo{
     cursor: pointer;
-    width: 18vw;
-    min-width: 200px;
-    max-width: 350px;
-    margin: 0 0 2vh 0;
+    width: 60%;
+    min-width: 250px;
+    margin: 0 1vw 2vh 0;
+    z-index: 1;
 }
 
 .projectsIntro{
@@ -250,5 +311,13 @@
 
     .projectInfo{
         height: 100%;
+    }
+
+
+}
+
+@media all and (max-height:850px){
+    .projectsInfo{
+        margin: 0;
     }
 }

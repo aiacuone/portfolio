@@ -1,0 +1,31 @@
+.contactMe{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 20vh 0;
+}
+
+.contactMeHeader{
+    width: 10vw;
+    min-width: 150px;
+    max-width: 250px;
+    margin: 0 0 2vh 0;
+}
+
+.contactMeSubHeader{
+    color: #506F8E;
+    /* font-style: bold; */
+}
+
+.contactMeText{
+    line-height: 30px;
+}
+
+@media all and (max-height:700px){
+    .contactMe{
+        padding: 0;
+    }
+}

@@ -20,7 +20,7 @@ export default function ProjectLayoutTall(props) {
                 <div class='projectTextContainer tall'>
                     {props.content==='tekkennet'&&<TekkenProjectText/>}
                     <div class='projectButtonContainer tall'>
-                        <button class='viewProjectButton introButtons'>View Project</button>
+                        <button class='viewProjectButton introButton'>View Project</button>
                     </div>
                 </div>
             </div>

@@ -112,7 +112,7 @@
     max-width: 600px;
     height: 98%;
     max-height: 400px;
-    background: gold;
+    /* background: gold; */
     border-radius: 10px;
     background-image: url(../images/introBackground.jpg);
     background-size: cover;
