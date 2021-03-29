@@ -6,7 +6,7 @@ export default function IntroWide(props) {
         <div class='introContainer wide'>
             <div class='introInfo wide'>
                 <img class='introHeader wide' src={introTitle}></img><br />
-                <h1>ANOTHER TEST</h1>
+                <h1>YET ANOTHER TEST</h1>
                 <text>
                     I recently made the career change to a software developer, to utilise the extra time brought upon by Covid-19.<br/>
                     During that time, i've put the majority of my focus towards courses and projects using both React and Javascript.<br/> 
