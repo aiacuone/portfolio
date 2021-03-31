@@ -48,7 +48,7 @@
     /* opacity: .9; */
     /* background: #506F8E; */
     /* background: black; */
-    background: rgb(24, 24, 24);
+    background: rgb(8, 8, 8);
     width: 50%;
     min-width: 200px;
     height: 100%;
@@ -68,6 +68,10 @@
     min-width: 250px;
     margin: 0 1vw 2vh 0;
     z-index: 1;
+}
+
+.projectsLogo.cheapshark{
+width: 50%;
 }
 
 .projectsIntro{

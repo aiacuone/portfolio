@@ -40,6 +40,11 @@ export default function Content(props) {
             {props.content==='freecodecamp'&&<ProjectLayout 
                 content={props.content}
                 windowWidth={props.windowWidth} 
+                windowHeight={props.windowHeight} />}
+            
+            {props.content==='cheapshark'&&<ProjectLayout 
+                content={props.content}
+                windowWidth={props.windowWidth} 
                 windowHeight={props.windowHeight}/>}
 
         </div>

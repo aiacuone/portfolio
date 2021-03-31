@@ -3,14 +3,16 @@ import ProjectLayoutWide from './ProjectLayoutWide'
 import ProjectLayoutTall from './ProjectLayoutTall'
 import tekkenScreenshot from './images/tekkenScreenshot.jpg'
 import freecodecampScreenshot from './images/freecodecampScreenshot.jpg'
+import cheapsharkScreenshot from './images/cheapsharkScreenshot.jpg'
 
 export default function ProjectLayout(props) {
 	let [screenshotImage, setScreenshotImage] = useState('')
-
+//i dont think i need to have this in either state nor do i need to have this use effect? im sure i can just use this in a variable
 	useEffect(() => {
 		props.content === 'tekkennet' && setScreenshotImage(tekkenScreenshot)
 		props.content === 'freecodecamp' &&
 			setScreenshotImage(freecodecampScreenshot)
+		props.content === 'cheapshark' && setScreenshotImage(cheapsharkScreenshot)
 	})
 
 	let buttonLink =
