@@ -21,7 +21,7 @@ export default function ProjectLayout(props) {
 			: props.content == 'cheapshark'
 			? 'https://aiacuone-cheapshark-api.netlify.app/'
 			: props.content == 'freecodecamp'
-			? null
+			? 'https://freecodecamp-notes-portfolio.netlify.app/'
 			: null
 
 	let projectScreenshotStyle = {
