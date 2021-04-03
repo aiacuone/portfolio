@@ -1,281 +1,271 @@
-.projects{
-    width: 90%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.projects {
+	width: 90%;
+	height: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
-.projectsContainer{
-    width: 100%;
-    height: 100%;
-    display: flex;
+.projectsContainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
 }
 
-
-.projectsInfo{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 0 15vh 0;
-    /* background: purple; */
+.projectsInfo {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 500px;
+	margin: 0 0 15vh 0;
+	/* background: purple; */
 }
 
-
-.projectsHeader{
-    width: 30%;
-    min-width: 120px;
+.projectsHeader {
+	width: 30%;
+	min-width: 120px;
 }
 
-.projectsText{
-    margin: 2vh 0;
+.projectsText {
+	margin: 2vh 0;
 }
 
-.projectsLogosContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
-    position: relative;
-    /* background: orange; */
+.projectsLogosContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 100%;
+	position: relative;
+	/* background: orange; */
 }
 
-.projectsLogosBackground{
-    position: absolute;
-    /* opacity: .3; */
-    /* opacity: .9; */
-    /* background: #506F8E; */
-    /* background: black; */
-    background: rgb(8, 8, 8);
-    width: 50%;
-    min-width: 200px;
-    height: 100%;
-    border-radius: 10px;
-    z-index: 0;
+.projectsLogosBackground {
+	position: absolute;
+	/* opacity: .3; */
+	/* opacity: .9; */
+	/* background: #506F8E; */
+	/* background: black; */
+	/* background: rgb(8, 8, 8); */
+	border: 2px rgb(85, 85, 85) solid;
+	width: 50%;
+	min-width: 200px;
+	height: 100%;
+	border-radius: 10px;
+	z-index: 0;
 }
 
-.projectsLogosHeader{
-    z-index: 1;
-    margin: 1vh 1vw .5vh 0;
-
+.projectsLogosHeader {
+	z-index: 1;
+	margin: 1vh 1vw 0.5vh 0;
 }
 
-.projectsLogo{
-    cursor: pointer;
-    width: 60%;
-    min-width: 250px;
-    margin: 0 1vw 2vh 0;
-    z-index: 1;
+.projectsLogo {
+	cursor: pointer;
+	width: 60%;
+	min-width: 250px;
+	margin: 0 1vw 2vh 0;
+	z-index: 1;
 }
 
-.projectsLogo.cheapshark{
-width: 50%;
+.projectsLogo.cheapshark {
+	width: 50%;
 }
 
-.projectsIntro{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-content: center;
-    /* background-color: orange; */
+.projectsIntro {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-content: center;
+	/* background-color: orange; */
 }
 
-.projectsLogo{
-    transition: all .2s ease-out;
+.projectsLogo {
+	transition: all 0.2s ease-out;
 }
 
-.projectsLogo:hover{
-    filter: drop-shadow(rgba(255, 255, 255, 0.328) 0px 3px 4px);
+.projectsLogo:hover {
+	filter: drop-shadow(rgba(255, 255, 255, 0.328) 0px 3px 4px);
 }
 
-.projectLayout{
-    height: 100%;
-    width: 100%;
-    max-width: 1500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all .2s ease-out;
+.projectLayout {
+	height: 100%;
+	width: 100%;
+	max-width: 1500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.2s ease-out;
 }
 
-.projectContainer{
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    /* background: darkmagenta; */
+.projectContainer {
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	/* background: darkmagenta; */
 }
 
-.projectSubHeaderContainer{
-    width: 100%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    /* background: #506f8eb0; */
+.projectSubHeaderContainer {
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	/* background: #506f8eb0; */
 }
 
-.projectLogo{
-    margin: 1vh 0 1vh 0;
-    transition: all .2s ease-out;
+.projectLogo {
+	margin: 1vh 0 1vh 0;
+	transition: all 0.2s ease-out;
 }
 
-.projectLogo.wide{
-    width: 20vw;
-    max-width: 400px;
-    min-width: 250px;
-    
+.projectLogo.wide {
+	width: 20vw;
+	max-width: 400px;
+	min-width: 250px;
 }
 
-.projectLogo.tall{
-    height: 3vh;
-    min-height: 22px;
-    max-height: 35px;
-    
+.projectLogo.tall {
+	height: 3vh;
+	min-height: 22px;
+	max-height: 35px;
 }
 
-.projectInfo{
-    width: 100%;
-    height: 60%;
-    display: flex;
-    flex-direction: row;
-
+.projectInfo {
+	width: 100%;
+	height: 60%;
+	display: flex;
+	flex-direction: row;
 }
 
-.projectInfo.tall{
-    flex-direction: column;
+.projectInfo.tall {
+	flex-direction: column;
 }
 
-.projectScreenshotContainer{
-    height: 100%;
-    width: 100%;
-    padding: 0 0 1.5vw 1.5vw;
-    border-bottom-left-radius: 10px;
-    display: flex;
-    justify-content: center;
-    /* background: #506f8eb0; */
+.projectScreenshotContainer {
+	height: 100%;
+	width: 100%;
+	padding: 0 0 1.5vw 1.5vw;
+	border-bottom-left-radius: 10px;
+	display: flex;
+	justify-content: center;
+	/* background: #506f8eb0; */
 }
 
-.projectScreenshotContainer.tall{
-    padding: 0 3vw;
-    border-bottom-left-radius: 0;
+.projectScreenshotContainer.tall {
+	padding: 0 3vw;
+	border-bottom-left-radius: 0;
 }
 
-.projectScreenshot{
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    /* background-position: center; */
-    background-position: top;
-    background-size: cover;
-
+.projectScreenshot {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	/* background-position: center; */
+	background-position: top;
+	background-size: cover;
 }
 
-.projectScreenshot.tall{
-    max-width: 400px;
+.projectScreenshot.tall {
+	max-width: 400px;
 }
 
-
-.projectTextContainer{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1vh 3vw;
-    border-bottom-right-radius: 10px;
-    /* background: indianred; */
+.projectTextContainer {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 1vh 3vw;
+	border-bottom-right-radius: 10px;
+	/* background: indianred; */
 }
 
-.projectTextContainer.tall{
-    border-bottom-left-radius: 10px;
+.projectTextContainer.tall {
+	border-bottom-left-radius: 10px;
 }
 
-.projectText{
-    font-size: 17px;
-    transition: all .2s ease-out;
-
+.projectText {
+	font-size: 17px;
+	transition: all 0.2s ease-out;
 }
 
-.projectText,text,h2{
-    color: rgb(218, 218, 218);
+.projectText,
+text,
+h2 {
+	color: rgb(218, 218, 218);
 }
 
-.projectButtonContainer{
-    display: flex;
-    justify-content: center;
-    margin: 1vh 0 0vh 0;
-    /* background: brown; */
+.projectButtonContainer {
+	display: flex;
+	justify-content: center;
+	margin: 1vh 0 0vh 0;
+	/* background: brown; */
 }
 
-.viewProjectButton{
-    margin: 2vh 0 0 0;
+.viewProjectButton {
+	margin: 2vh 0 0 0;
 }
 
+@media all and (max-width: 1500px) and (max-height: 800px) {
+	.projectText {
+		font-size: 12px;
+	}
 
-@media all and (max-width:1500px) and (max-height:800px){
-    .projectText{
-        font-size: 12px;
-    }
-
-    .projectInfo{
-        height: 70%;
-    }
+	.projectInfo {
+		height: 70%;
+	}
 }
 
-@media all and (max-width:1200px){
-    .projectInfo{
-        height: 70%;
-    }
+@media all and (max-width: 1200px) {
+	.projectInfo {
+		height: 70%;
+	}
 }
 
-@media all and (max-height:800px){
-    .projectText{
-        font-size: 12px;
-    }
-    
-    .projectInfo{
-        height: 70%;
-    }
+@media all and (max-height: 800px) {
+	.projectText {
+		font-size: 12px;
+	}
+
+	.projectInfo {
+		height: 70%;
+	}
 }
 
-@media all and (max-width:1200px) and (max-height:900px){
-    .projectText{
-        font-size: 12px;
-    }
+@media all and (max-width: 1200px) and (max-height: 900px) {
+	.projectText {
+		font-size: 12px;
+	}
 
-    .projectInfo{
-        height: 100%;
-    }
-
+	.projectInfo {
+		height: 100%;
+	}
 }
 
-@media all and (max-width:800px){
-    .projectInfo{
-        height: 100%;
-    }
+@media all and (max-width: 800px) {
+	.projectInfo {
+		height: 100%;
+	}
 }
 
-@media all and (max-height:500px){
-    .projectText{
-        font-size: 10px;
-        overflow: hidden;
-    }
+@media all and (max-height: 500px) {
+	.projectText {
+		font-size: 10px;
+		overflow: hidden;
+	}
 
-    .projectInfo{
-        height: 100%;
-    }
-
-
+	.projectInfo {
+		height: 100%;
+	}
 }
 
-@media all and (max-height:600px){
-    .projectsInfo{
-        margin: 0;
-    }
+@media all and (max-height: 600px) {
+	.projectsInfo {
+		margin: 0;
+	}
 }

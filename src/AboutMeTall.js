@@ -1,20 +1,13 @@
 import React from 'react'
 import aboutMeHeader from './images/aboutMeHeader.svg'
 
-export default function AboutMeTall(props) {
+export default function AboutMeTall({ windowHeight,windowWidth,text}) {
     return (
         <div class='aboutMeContainer tall'>
             <div class='aboutMeTextContainer tall'>
-                {props.windowHeight>=props.windowWidth&&<img class='aboutMeHeader tall' src={aboutMeHeader}></img>}
+                {windowHeight>=windowWidth&&<img class='aboutMeHeader tall' src={aboutMeHeader}></img>}
                 <div class='aboutMeText tall'>
-                    <text>
-                        <b>Name:</b> Adrian Iacuone<br/>
-                        <b>DOB:</b> <s/>May 1987<br/>
-                        <b>Location:</b> South London<br/>
-                        <b>Nationality:</b> Australian<br/>
-                        <b>Interests:</b> Computers, Sports, Gym, Music and Coffee<br/>
-                        <b>Email:</b> aiacuone@gmail.com
-                    </text>
+                    { text}
                 </div>
             </div>
             <div class='aboutMePictureContainer tall'>

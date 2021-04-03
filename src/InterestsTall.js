@@ -3,23 +3,27 @@ import interestsHeader from './images/interestsHeader.svg'
 import javascriptLogo from './images/javascriptLogo.svg'
 import reactLogo from './images/reactLogo.svg'
 
-export default function InterestsTall(props) {
-    return (
-        <div class='interestsContainer tall'>
-            <div class='interestsInfoContainer tall'>
-                <div class='InterestsInfo tall'>
-                    <text>
-                        <img class='interestsHeader tall'src={interestsHeader}></img><br/>
-                            I am at the early stages of my career, and would love to work within an experienced group, and absorb as much of their experience as I can.<br/>
-                            More specifically, main focus is applications using both Javascript and React.<br/>
-                        <img class='reactLogo interestsLogo tall'src={reactLogo}/>
-                        <img class='javascriptLogo interestsLogo tall'src={javascriptLogo}/>
-                    </text>
-                </div>
-            </div>
-            <div class='interestsPictureContainer tall'>
-                <div class='interestsPicture tall'/>
-            </div>
-        </div>
-    )
+export default function InterestsTall({ text }) {
+	return (
+		<div class="interestsContainer tall">
+			<div class="interestsInfoContainer tall">
+				<div class="InterestsInfo tall">
+					<div>
+						<img class="interestsHeader tall" src={interestsHeader}></img>
+						<br />
+
+						{text}
+						<img class="reactLogo interestsLogo tall" src={reactLogo} />
+						<img
+							class="javascriptLogo interestsLogo tall"
+							src={javascriptLogo}
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="interestsPictureContainer tall">
+				<div class="interestsPicture tall" />
+			</div>
+		</div>
+	)
 }
