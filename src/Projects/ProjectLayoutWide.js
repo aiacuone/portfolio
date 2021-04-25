@@ -12,32 +12,32 @@ export default function ProjectLayoutWide({
 	buttonLink,
 }) {
 	return (
-		<div class="projectLayout wide">
-			<div class="projectContainer">
-				<div class="projectSubHeaderContainer">
+		<div className="projectLayout wide">
+			<div className="projectContainer">
+				<div className="projectSubHeaderContainer">
 					{content === 'tekkennet' && (
-						<img class="projectLogo wide" src={tekkennetLogo} />
+						<img className="projectLogo wide" src={tekkennetLogo} alt=''/>
 					)}
 					{content === 'freecodecamp' && (
-						<img class="projectLogo wide" src={freecodecampLogo} />
+						<img className="projectLogo wide" src={freecodecampLogo} alt=''/>
 					)}
 					{content === 'cheapshark' && (
-						<img class="projectLogo wide" src={cheapsharkLogo} />
+						<img className="projectLogo wide" src={cheapsharkLogo} alt=''/>
 					)}
 				</div>
-				<div class="projectInfo wide">
-					<div class="projectScreenshotContainer wide">
+				<div className="projectInfo wide">
+					<div className="projectScreenshotContainer wide">
 						<div
-							class="projectScreenshot wide"
+							className="projectScreenshot wide"
 							style={projectScreenshotStyle}></div>
 					</div>
-					<div class="projectTextContainer wide">
+					<div className="projectTextContainer wide">
 						{content === 'tekkennet' && <TekkenProjectText />}
 						{content === 'freecodecamp' && <FreecodecampProjectText />}
 						{content === 'cheapshark' && <CheapsharkProjectText />}
-						<div class="projectButtonContainer wide">
+						<div className="projectButtonContainer wide">
 							<a href={buttonLink} target="_blank">
-								<button class="viewProjectButton introButton">
+								<button className="viewProjectButton introButton">
 									View Project
 								</button>
 							</a>

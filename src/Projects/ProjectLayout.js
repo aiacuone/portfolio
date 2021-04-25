@@ -7,7 +7,7 @@ import cheapsharkScreenshot from './images/cheapsharkScreenshot.jpg'
 
 export default function ProjectLayout(props) {
 	let [screenshotImage, setScreenshotImage] = useState('')
-//i dont think i need to have this in either state nor do i need to have this use effect? im sure i can just use this in a variable
+	//i dont think i need to have this in either state nor do i need to have this use effect? im sure i can just use this in a variable
 	useEffect(() => {
 		props.content === 'tekkennet' && setScreenshotImage(tekkenScreenshot)
 		props.content === 'freecodecamp' &&
@@ -29,7 +29,7 @@ export default function ProjectLayout(props) {
 	}
 
 	return (
-		<div class="projectLayout">
+		<div className="projectLayout">
 			{props.windowWidth > props.windowHeight && (
 				<ProjectLayoutWide
 					content={props.content}

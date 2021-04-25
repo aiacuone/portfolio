@@ -4,13 +4,13 @@ import aboutMeHeader from './images/aboutMeHeader.svg'
 
 export default function AboutMeWide({ windowHeight, windowWidth, text }) {
 	return (
-		<div class="aboutMeContainer wide">
-			<div class="aboutMePictureContainer">
-				<div class="aboutMePicture" />
+		<div className="aboutMeContainer wide">
+			<div className="aboutMePictureContainer">
+				<div className="aboutMePicture" />
 			</div>
-			<div class="aboutMeTextContainer">
+			<div className="aboutMeTextContainer">
 				{windowHeight < windowWidth && (
-					<img class="aboutMeHeader wide" src={aboutMeHeader}></img>
+					<img className="aboutMeHeader wide" src={aboutMeHeader} alt="" />
 				)}
 				{text}
 			</div>

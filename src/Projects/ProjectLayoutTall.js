@@ -12,33 +12,33 @@ export default function ProjectLayoutTall({
 	buttonLink,
 }) {
 	return (
-		<div class="projectLayout tall">
-			<div class="projectContainer">
-				<div class="projectSubHeaderContainer">
+		<div className="projectLayout tall">
+			<div className="projectContainer">
+				<div className="projectSubHeaderContainer">
 					{content === 'tekkennet' && (
-						<img class="projectLogo tall" src={tekkennetLogo} />
+						<img className="projectLogo tall" src={tekkennetLogo} alt="" />
 					)}
 					{content === 'freecodecamp' && (
-						<img class="projectLogo tall" src={freecodecampLogo} />
+						<img className="projectLogo tall" src={freecodecampLogo} alt="" />
 					)}
 					{content === 'cheapshark' && (
-						<img class="projectLogo tall" src={cheapsharkLogo} />
+						<img className="projectLogo tall" src={cheapsharkLogo} alt="" />
 					)}
 				</div>
-				<div class="projectInfo tall">
-					<div class="projectScreenshotContainer tall">
+				<div className="projectInfo tall">
+					<div className="projectScreenshotContainer tall">
 						<div
-							class="projectScreenshot tall"
+							className="projectScreenshot tall"
 							style={projectScreenshotStyle}></div>
 					</div>
-					<div class="projectTextContainer tall">
+					<div className="projectTextContainer tall">
 						{content === 'tekkennet' && <TekkenProjectText />}
 						{content === 'freecodecamp' && <FreecodecampProjectText />}
 						{content === 'cheapshark' && <CheapsharkProjectText />}
 
-						<div class="projectButtonContainer tall">
+						<div className="projectButtonContainer tall">
 							<a href={buttonLink} target="_blank">
-								<button class="viewProjectButton introButton">
+								<button className="viewProjectButton introButton">
 									View Project
 								</button>
 							</a>

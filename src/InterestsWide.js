@@ -5,22 +5,27 @@ import reactLogo from './images/reactLogo.svg'
 
 export default function InterestsWide({ text }) {
 	return (
-		<div class="interestsContainer wide">
-			<div class="interestsInfoContainer wide">
-				<div class="InterestsInfo">
+		<div className="interestsContainer wide">
+			<div className="interestsInfoContainer wide">
+				<div className="InterestsInfo">
 					<div>
-						<img class="interestsHeader" src={interestsHeader}></img>
+						<img className="interestsHeader" src={interestsHeader} alt="" />
 						{text}
-						<img class="reactLogo interestsLogo wide" src={reactLogo} />
 						<img
-							class="javascriptLogo interestsLogo wide"
+							className="reactLogo interestsLogo wide"
+							src={reactLogo}
+							alt=""
+						/>
+						<img
+							className="javascriptLogo interestsLogo wide"
 							src={javascriptLogo}
+							alt=""
 						/>
 					</div>
 				</div>
 			</div>
-			<div class="interestsPictureContainer wide">
-				<div class="interestsPicture wide" />
+			<div className="interestsPictureContainer wide">
+				<div className="interestsPicture wide" />
 			</div>
 		</div>
 	)

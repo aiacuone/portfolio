@@ -5,24 +5,33 @@ import reactLogo from './images/reactLogo.svg'
 
 export default function InterestsTall({ text }) {
 	return (
-		<div class="interestsContainer tall">
-			<div class="interestsInfoContainer tall">
-				<div class="InterestsInfo tall">
+		<div className="interestsContainer tall">
+			<div className="interestsInfoContainer tall">
+				<div className="InterestsInfo tall">
 					<div>
-						<img class="interestsHeader tall" src={interestsHeader}></img>
+						<img
+							className="interestsHeader tall"
+							src={interestsHeader}
+							alt=""
+						/>
 						<br />
 
 						{text}
-						<img class="reactLogo interestsLogo tall" src={reactLogo} />
 						<img
-							class="javascriptLogo interestsLogo tall"
+							className="reactLogo interestsLogo tall"
+							src={reactLogo}
+							alt=""
+						/>
+						<img
+							className="javascriptLogo interestsLogo tall"
 							src={javascriptLogo}
+							alt=""
 						/>
 					</div>
 				</div>
 			</div>
-			<div class="interestsPictureContainer tall">
-				<div class="interestsPicture tall" />
+			<div className="interestsPictureContainer tall">
+				<div className="interestsPicture tall" />
 			</div>
 		</div>
 	)

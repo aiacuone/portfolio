@@ -3,9 +3,9 @@ import './styles/headerLogo.css'
 import aiLogo from './images/aiLogo.svg'
 
 export default function HeaderLogo() {
-    return (
-        <div id='headerLogo'>
-            <img id='aiLogo'src={aiLogo}/>
-        </div>
-    )
+	return (
+		<div id="headerLogo">
+			<img id="aiLogo" src={aiLogo} alt="" />
+		</div>
+	)
 }

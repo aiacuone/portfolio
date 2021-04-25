@@ -5,7 +5,7 @@ import AboutMeTall from './AboutMeTall'
 
 export default function AboutMe(props) {
 	let text = (
-		<text>
+		<p>
 			<b>Name:</b> Adrian Iacuone
 			<br />
 			<b>DOB:</b> <s />
@@ -18,10 +18,10 @@ export default function AboutMe(props) {
 			<b>Interests:</b> Computers & Technology, Sports, Gym, Music and Coffee
 			<br />
 			<b>Email:</b> aiacuone@gmail.com
-		</text>
+		</p>
 	)
 	return (
-		<div class="aboutMe">
+		<div className="aboutMe">
 			{props.windowHeight >= props.windowWidth && (
 				<AboutMeTall
 					windowWidth={props.windowWidth}

@@ -64,7 +64,7 @@
     border: 3px #506F8E solid;
     border-radius: 10px;
     white-space: nowrap;
-    width: 170px;
+    min-width: 170px;
  
 }
 

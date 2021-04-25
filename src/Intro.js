@@ -5,15 +5,15 @@ import IntroWide from './IntroWide'
 
 export default function Intro(props) {
 	let text = (
-		<text>
-			I made a career to Software Developement, to utilise the
-			extra time brought upon by Covid-19.
+		<p>
+			I made a career to Software Developement, to utilise the extra time
+			brought upon by Covid-19.
 			<br />
 			During that time, i've put the majority of my focus towards courses and
 			projects using both React and Javascript.
 			<br />
 			To Continue, please select from one of the following options!
-		</text>
+		</p>
 	)
 
 	return (

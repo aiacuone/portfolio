@@ -3,18 +3,27 @@ import './styles/contactMe.css'
 import contactMeHeader from './images/contactMeHeader.svg'
 
 export default function ContactMe() {
-    return (
-        <div class='contactMe'>
-             <img class='contactMeHeader' src={contactMeHeader}/>
-             <text class='contactMeText'>
-
-                 <b class='contactMeSubHeader'>Email:</b> <b>aiacuone@gmail.com</b><br/>
-                 <b class='contactMeSubHeader'>Linked-in:</b> <b>www.linkedin.com/in/adrian-iacuone</b><br/><br/>
-             </text>
-             <text>
-             
-                 I am currently available for work, please dont hesitate to ask any questions :) Thankyou<br/>
-             </text>
-        </div>
-    )
+	return (
+		<div className="contactMe">
+			<img className="contactMeHeader" src={contactMeHeader} alt="" />
+			<p className="contactMeText">
+				<b className="contactMeSubHeader">Email:</b>{' '}
+				<a href="mailto:aiacuone@gmail.com">
+					<b>aiacuone@gmail.com</b>
+				</a>
+				<br />
+				<b className="contactMeSubHeader">Linked-in:</b>{' '}
+				<a href="https://www.linkedin.com/in/adrian-iacuone/">
+					<b>www.linkedin.com/in/adrian-iacuone</b>
+				</a>
+				<br />
+				<br />
+			</p>
+			<p>
+				I am currently available for work, please dont hesitate to ask any
+				questions :) Thankyou
+				<br />
+			</p>
+		</div>
+	)
 }
