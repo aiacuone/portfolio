@@ -69,6 +69,13 @@ export default function Content(props) {
 					windowHeight={props.windowHeight}
 				/>
 			)}
+			{props.content === 'noteTaker' && (
+				<ProjectLayout
+					content={props.content}
+					windowWidth={props.windowWidth}
+					windowHeight={props.windowHeight}
+				/>
+			)}
 		</div>
 	)
 }

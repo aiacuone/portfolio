@@ -1,47 +1,39 @@
 import React from 'react'
-import TekkenProjectText from './TekkenProjectText'
-import FreecodecampProjectText from './FreecodecampProjectText'
-import CheapsharkProjectText from './CheapsharkProjectText'
-import tekkennetLogo from './images/tekkennetLogo.svg'
-import freecodecampLogo from './images/freecodecampLogo.svg'
-import cheapsharkLogo from './images/cheapsharkLogo.svg'
 
-export default function ProjectLayoutTall({
-	content,
-	projectScreenshotStyle,
-	buttonLink,
-}) {
+export default function ProjectLayoutTall({ content, info }) {
+	let logo = info[content].logo
+	let text = info[content].text
+	let screenshot = info[content].screenshot
+	let github = info[content].github
+	let button = info[content].button
+
 	return (
 		<div className="projectLayout tall">
 			<div className="projectContainer">
 				<div className="projectSubHeaderContainer">
-					{content === 'tekkennet' && (
-						<img className="projectLogo tall" src={tekkennetLogo} alt="" />
-					)}
-					{content === 'freecodecamp' && (
-						<img className="projectLogo tall" src={freecodecampLogo} alt="" />
-					)}
-					{content === 'cheapshark' && (
-						<img className="projectLogo tall" src={cheapsharkLogo} alt="" />
-					)}
+					<img className="projectLogo tall" src={logo} alt="" />
 				</div>
 				<div className="projectInfo tall">
 					<div className="projectScreenshotContainer tall">
 						<div
 							className="projectScreenshot tall"
-							style={projectScreenshotStyle}></div>
+							style={{ backgroundImage: 'url(' + screenshot + ')' }}></div>
 					</div>
 					<div className="projectTextContainer tall">
-						{content === 'tekkennet' && <TekkenProjectText />}
-						{content === 'freecodecamp' && <FreecodecampProjectText />}
-						{content === 'cheapshark' && <CheapsharkProjectText />}
-
+						{text}
 						<div className="projectButtonContainer tall">
-							<a href={buttonLink} target="_blank">
+							<a href={button} target="_blank">
 								<button className="viewProjectButton introButton">
 									View Project
 								</button>
 							</a>
+							{github && (
+								<a href={github} target="_blank">
+									<button className="viewProjectButton introButton">
+										Github
+									</button>
+								</a>
+							)}
 						</div>
 					</div>
 				</div>

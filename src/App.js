@@ -18,6 +18,7 @@ function App() {
 		window.addEventListener('resize', handleResize)
 	}, [])
 
+	console.log(content)
 	return (
 		<div id="mainContentContainer">
 			<div id="mainContentOverlay" />

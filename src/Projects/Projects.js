@@ -3,7 +3,9 @@ import './styles/projects.css'
 import projectsHeader from './images/projectsHeader.svg'
 import tekkennetLogo from './images/tekkennetLogo.svg'
 import freecodecampLogo from './images/freecodecampLogo.svg'
-import cheapsharkLogo from './images/cheapsharkLogo.svg'
+import cheapsharkLogo from './images/cheapsharkLogo.jpg'
+import noteTakerLogo from './images/noteTakerLogo.svg'
+import latest from './images/latest.svg'
 
 export default function Projects(props) {
 	return (
@@ -38,6 +40,15 @@ export default function Projects(props) {
 						onClick={(event) => props.contentChange('cheapshark')}
 						alt=""
 					/>
+					<div class='projectsLogo latestWrapper'>
+						<img class='latest' src={ latest}/>
+						<img
+							className="noteTaker projectsLogo"
+							src={noteTakerLogo}
+							onClick={(event) => props.contentChange('noteTaker')}
+							alt=""
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
