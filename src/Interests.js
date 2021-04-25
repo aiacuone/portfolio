@@ -7,10 +7,10 @@ export default function Interests(props) {
 	let text = (
 		<text>
 			<br />
-			I am at the early stages of my career, and would love to work within an
-			experienced group, and absorb as much of their experience as I can.
+			I am at the early stages of my career, and would love an opportunity to to work within an
+			an organisation that will expand on my skills that i've learnt so far.
 			<br />
-			More specifically, main focus is applications using both Javascript and
+			More specifically, my main focus is developing applications using both Javascript and
 			React.
 			<br />
 		</text>

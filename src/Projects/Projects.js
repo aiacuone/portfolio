@@ -15,7 +15,7 @@ export default function Projects(props) {
                 <img class='projectsHeader' src={projectsHeader}/>
                 <div class='projectsText'>
                     <text>
-                        These are the projects ive created. Im constantly creatinng something new. Check in frequently, this list will be continually growing!
+                        To showcase my skillset, the below are the projects ive developed. My innovative mindset is always looking to create something new, so check in frequently for future projects.
                     </text>
                 </div>
                 <div class='projectsLogosContainer'>

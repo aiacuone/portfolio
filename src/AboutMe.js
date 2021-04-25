@@ -11,11 +11,11 @@ export default function AboutMe(props) {
 			<b>DOB:</b> <s />
 			May 1987
 			<br />
-			<b>Location:</b> South London
+			<b>Location:</b> South-West London
 			<br />
 			<b>Nationality:</b> Australian
 			<br />
-			<b>Interests:</b> Computers, Sports, Gym, Music and Coffee
+			<b>Interests:</b> Computers & Technology, Sports, Gym, Music and Coffee
 			<br />
 			<b>Email:</b> aiacuone@gmail.com
 		</text>
