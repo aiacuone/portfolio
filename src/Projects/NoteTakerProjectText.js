@@ -18,7 +18,7 @@ export default function NoteTakerProjectText() {
 			<br />
 			<h2>Skills</h2>
 			<p>
-				Lodash React Library, Objects, Object Methods, Arrays, Array Methods, Event Handlers, useEffect Hook, useRef Hook, useState Hook, SunEditor React Library, Timeouts,
+				Lodash React Library, Objects, Object Methods, Arrays, Array Methods, Event Handlers, useEffect Hook, useRef Hook, useState Hook, SunEditor React Library, Timeouts.
 			</p>
 		</div>
 	)
