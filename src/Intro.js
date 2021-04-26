@@ -6,7 +6,7 @@ import IntroWide from './IntroWide'
 export default function Intro(props) {
 	let text = (
 		<p>
-			I made a career to Software Developement, to utilise the extra time
+			I made a career change to Software Developement, to utilise the extra time
 			brought upon by Covid-19.
 			<br />
 			During that time, i've put the majority of my focus towards courses and
