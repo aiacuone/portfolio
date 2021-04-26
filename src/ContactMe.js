@@ -12,7 +12,7 @@ export default function ContactMe() {
 					<b>aiacuone@gmail.com</b>
 				</a>
 				<br />
-				<b className="contactMeSubHeader">Linked In:</b>{' '}
+				<b className="contactMeSubHeader">LinkedIn:</b>{' '}
 				<a href="https://www.linkedin.com/in/adrian-iacuone/">
 					<b>www.linkedin.com/in/adrian-iacuone</b>
 				</a>
@@ -24,8 +24,8 @@ export default function ContactMe() {
 				<br />
 			</p>
 			<p>
-				I am currently available for work, please dont hesitate to ask any
-				questions :) Thankyou
+				I am currently available for work, please dont hesitate to get in touch
+				:) Thankyou
 				<br />
 			</p>
 		</div>
