@@ -6,7 +6,7 @@ export default function FreecodecampProjectText() {
 			<h2>Summary</h2>
 			<p>
 				Freecodecamp is a completely free online course that covers a broad
-				range of areas in Software Developement, in particular, Javascript.
+				range of areas in Software Development, in particular, Javascript.
 				<br />
 				The course does a brilliant job in introducing the basics, before moving
 				onto advanced areas.
