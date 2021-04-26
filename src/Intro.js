@@ -9,10 +9,10 @@ export default function Intro(props) {
 			I made a career change to Software Development, to utilise the extra time
 			brought upon by Covid-19.
 			<br />
-			During that time, i've put the majority of my focus towards courses and
+			During that time, I've put the majority of my focus towards courses and
 			projects using both React and Javascript.
 			<br />
-			To Continue, please select from one of the following options!
+			To continue, please select from one of the following options.
 		</p>
 	)
 

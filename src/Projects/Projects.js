@@ -14,7 +14,7 @@ export default function Projects(props) {
 				<img className="projectsHeader" src={projectsHeader} alt="" />
 				<div className="projectsText">
 					<p>
-						To showcase my skillset, the below are the projects ive developed.
+						To showcase my skillset, the below are the projects I've developed.
 						My innovative mindset is always looking to create something new, so
 						check in frequently for future projects.
 					</p>

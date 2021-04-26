@@ -12,10 +12,14 @@ export default function ContactMe() {
 					<b>aiacuone@gmail.com</b>
 				</a>
 				<br />
-				<b className="contactMeSubHeader">Linked-in:</b>{' '}
+				<b className="contactMeSubHeader">Linked In:</b>{' '}
 				<a href="https://www.linkedin.com/in/adrian-iacuone/">
 					<b>www.linkedin.com/in/adrian-iacuone</b>
 				</a>
+				<div className="phoneNumberWrapper">
+					<b className="contactMeSubHeader">Phone:</b>{' '}
+					<p className="phonenumber">07 393 961 334</p>
+				</div>
 				<br />
 				<br />
 			</p>
